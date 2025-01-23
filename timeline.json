@@ -1,0 +1,381 @@
+[
+    {
+        "date": "August 2024",
+        "timelines": "Theta and Delta",
+        "dectype": "Total shift",
+        "event": "Elon Musk becomes CEO",
+        "top": "13.5em",
+        "left": "40em"
+      },
+      {
+        "date": "December 2022",
+        "timelines": "Sigma,Xi and Delta",
+        "dectype": "Total shift",
+        "event": "User can hide the number\nof likes",
+        "top": "30.5em",
+        "left": "26.5em"
+      },
+      {
+        "date": "December 2021",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "Scandal due to\nhomofobic CEO",
+        "top": "41em",
+        "left": "62.7em"
+      },
+      {
+        "date": "June 2020",
+        "timelines": "Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "New electric cars become\n part of the company",
+        "top": "56em",
+        "left": "49em"
+      },
+      {
+        "date": "September 2019",
+        "timelines": "Sigma, Theta, Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company starts a food\n delivery branch",
+        "top": "66em",
+        "left": "50em"
+      },
+      {
+        "date": "August 2017",
+        "timelines": "Xi, Theta and Delta",
+        "dectype": "Total shift",
+        "event": "Over 70 million monthly active\n users reached",
+        "top": "88em",
+        "left": "49em"
+      },
+      {
+        "date": "October 2016",
+        "timelines": "Sigma, Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces\n 'Google Cloud Search'",
+        "top": "97em",
+        "left": "43.5em"
+      },
+      {
+        "date": "December 2015",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company stocks records a\n 16.26% increase",
+        "top": "105em",
+        "left": "52.5em"
+      },
+      {
+        "date": "January 2015",
+        "timelines": "Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company unveils 'Android\n Pay'",
+        "top": "115em",
+        "left": "28em"
+      },
+      {
+        "date": "November 2012",
+        "timelines": "Sigma and Delta",
+        "dectype": "Total shift",
+        "event": "Cartoon Network broadcasts\n an animated serie\n featuring the brand",
+        "top": "138.5em",
+        "left": "16em"
+      },
+      {
+        "date": "November 2011",
+        "timelines": "Theta and Delta",
+        "dectype": "Total shift",
+        "event": "The company announces the\n acquisition of 'Autonomy\n Corporation'",
+        "top": "149.7em",
+        "left": "40.5em"
+      },
+      {
+        "date": "November 2009",
+        "timelines": "Theta and Delta",
+        "dectype": "Total shift",
+        "event": "The company faced various\n challenges due to the\n global financial crisis",
+        "top": "171em",
+        "left": "44.2em"
+      },
+      {
+        "date": "October 2007",
+        "timelines": "Sigma, Xi, Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces\n 'KitKat Caramel'",
+        "top": "195em",
+        "left": "47em"
+      },
+      {
+        "date": "October 2006",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces\n 'KitKat Chocolate Mocha'",
+        "top": "205.5em",
+        "left": "52.5em"
+      },
+      {
+        "date": "December 2005",
+        "timelines": "Sigma, Xi and Delta",
+        "dectype": "Total shift",
+        "event": "A 'Disney' inspired series is\n launched featuring the brand's\n 'Happy Meals'",
+        "top": "214.5em",
+        "left": "26.6em"
+      },
+      {
+        "date": "November 2003",
+        "timelines": "Sigma, Xi and Delta",
+        "dectype": "Total shift",
+        "event": "The company starts various\n collabs with trending brands",
+        "top": "237.5em",
+        "left": "17em"
+      },
+      {
+        "date": "June 2002",
+        "timelines": "Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company opens 27 \nnew stores",
+        "top": "250em",
+        "left": "49.3em"
+      },
+      {
+        "date": "December 2001",
+        "timelines": "Sigma, Xi and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "Rossella Jardini becomes the\n new art director of the brand",
+        "top": "256.5em",
+        "left": "62.7em"
+      },
+      {
+        "date": "December 1999",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company shows Mac OS\n 9 at 'Apple Special Event'",
+        "top": "278.5em",
+        "left": "49em"
+      },
+      {
+        "date": "November 1998",
+        "timelines": "Xi, Delta and Lambda",
+        "dectype": "Total shift",
+        "event": "The company releases the\n 'Red and Blue' videogames\n for GameBoy",
+        "top": "290em",
+        "left": "51em"
+      },
+      {
+        "date": "November 1997",
+        "timelines": "Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces a\n casual clothing line,\n 'Moskino Jeans'",
+        "top": "301.5em",
+        "left": "41.5em"
+      },
+      {
+        "date": "December 1995",
+        "timelines": "Xi, Theta and Delta",
+        "dectype": "Total shift",
+        "event": "The company presents its\n Ready-To-Wear collection",
+        "top": "322em",
+        "left": "49em"
+      },
+      {
+        "date": "May 1994",
+        "timelines": "Sigma, Delta and Lambda",
+        "dectype": "Total shift",
+        "event": "The company launches\n iconic models that influence\n the sports footwear market",
+        "top": "339.5em",
+        "left": "53em"
+      },
+      {
+        "date": "January 1993",
+        "timelines": "Sigma, Xi and Theta",
+        "dectype": "Total shift",
+        "event": "The company introduces\n 'Adobe Acrobat'",
+        "top": "354em",
+        "left": "29em"
+      },
+      {
+        "date": "April 1991",
+        "timelines": "Sigma, Xi, Theta and Delta",
+        "dectype": "Total shift",
+        "event": "The company launches the\n 'Equipment EQT' line",
+        "top": "372em",
+        "left": "35em"
+      },
+      {
+        "date": "October 1988",
+        "timelines": "Delta and Lambda",
+        "dectype": "Total shift",
+        "event": "The company introduces\n 'Microsoft OnLine' for\n technical support",
+        "top": "398em",
+        "left": "52.5em"
+      },
+      {
+        "date": "June 1987",
+        "timelines": "Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces a line\n of briefs called 'Bold Cut'",
+        "top": "414em",
+        "left": "49em"
+      },
+      {
+        "date": "November 1986",
+        "timelines": "Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company buys 'Velsicol'",
+        "top": "420em",
+        "left": "50em"
+      },
+      {
+        "date": "January 1985",
+        "timelines": "Sigma and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company launches\n 'Funpals', a line for\n children' underwear",
+        "top": "440.5em",
+        "left": "17.6em"
+      },
+      {
+        "date": "July 1983",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company starts to\n produce women' underwear",
+        "top": "456.5em",
+        "left": "58em"
+      },
+      {
+        "date": "December 1975",
+        "timelines": "Theta and Delta",
+        "dectype": "Total shift",
+        "event": "The company introduce the\n '5100 Portable Computer',\n one of the first portable\n devices",
+        "top": "539em",
+        "left": "44.5em"
+      },
+      {
+        "date": "August 1973",
+        "timelines": "Sigma and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company opens its first\n store in Ludwigshafen",
+        "top": "565.5em",
+        "left": "32.3em"
+      },
+      {
+        "date": "February 1972",
+        "timelines": "Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "Dieter Schwarz took over\n the management of the\n family business",
+        "top": "580em",
+        "left": "49em"
+      },
+      {
+        "date": "April 1970",
+        "timelines": "Delta and Lambda",
+        "dectype": "Total shift",
+        "event": "The company establishes\n itself in the international\n market, becoming a daily\n food item",
+        "top": "600em",
+        "left": "57em"
+      },
+      {
+        "date": "November 1968",
+        "timelines": "Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces\n the 'Trucker' jacket model",
+        "top": "615em",
+        "left": "45em"
+      },
+      {
+        "date": "September 1967",
+        "timelines": "Sigma and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces \n the 'iconic 505 jeans model",
+        "top": "629em",
+        "left": "17.5em"
+      },
+      {
+        "date": "May 1966",
+        "timelines": "Sigma, Xi, Theta and Delta",
+        "dectype": "Total shift",
+        "event": "Creation of the brand",
+        "top": "643em",
+        "left": "40em"
+      },
+      {
+        "date": "November 1963",
+        "timelines": "Xi, Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The archive creates the\n Public Outreach department",
+        "top": "669.5em",
+        "left": "47.9em"
+      },
+      {
+        "date": "November 1962",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The archive opens its\n headquarters in Genève,\n Switzerland",
+        "top": "680.5em",
+        "left": "56em"
+      },
+      {
+        "date": "December 1960",
+        "timelines": "Sigma and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The archive publishes for the\n first time its studies on\n multiverse",
+        "top": "701.5em",
+        "left": "40.3em"
+      },
+      {
+        "date": "June 1956",
+        "timelines": "Sigma and Delta",
+        "dectype": "Total shift",
+        "event": "The company introduces the\n 'VT' and '8-T' models",
+        "top": "750em",
+        "left": "46.5em"
+      },
+      {
+        "date": "January 1953",
+        "timelines": "Theta, Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company launches the\n 'Coke Time' program, \n broadcast on radio and tv",
+        "top": "786.5em",
+        "left": "55em"
+      },
+      {
+        "date": "August 1950",
+        "timelines": "Sigma, Xi and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company airs its first tv \ncommercial during a\n Thanksgiving special",
+        "top": "815em",
+        "left": "48em"
+      },
+      {
+        "date": "September 1945",
+        "timelines": "Xi, Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company introduces\n 'Datejust', the first wristwatch\n to display the date in\n a window on the dial",
+        "top": "866.7em",
+        "left": "48.5em"
+      },
+      {
+        "date": "October 1944",
+        "timelines": "Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company supplies\n watches to allied officers",
+        "top": "877em",
+        "left": "53.5em"
+      },
+      {
+        "date": "August 1942",
+        "timelines": "Sigma, Delta and Lambda",
+        "dectype": "Branch specific shift",
+        "event": "The company adapts its\n operations due to WW2\nrestrictions",
+        "top": "900.5em",
+        "left": "45em"
+      },
+      {
+        "date": "September 1940",
+        "timelines": "Xi, Theta and Delta",
+        "dectype": "Branch specific shift",
+        "event": "The company continues\n production despite WW2",
+        "top": "922em",
+        "left": "47.9em"
+      }
+      
+      
+      
+]

@@ -1,0 +1,479 @@
+.layout {
+    position: relative; /* Necessario per i figli con position:absolute */
+}
+
+.timelineContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.filter-buttons {
+    gap: 125px;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.80);
+    z-index: 4;
+    margin-bottom: 0.001em;
+}
+
+#lambdabutton {
+    margin-left:12.5px ;
+}
+
+#anni {
+    display: flex;
+    flex-direction: column;
+    gap: 7.209em;
+    position: relative;
+    z-index: 0; /* Sotto le linee verticali */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.80);
+}
+
+#anni h3 {
+    border-bottom: 2px dashed #949494;
+}
+
+#lineeUniversi {
+    width: 60%;
+    position: absolute;
+    z-index: 2; /* Sopra le linee verticali */
+    top: 6.2em;
+    display: flex;
+    flex-direction: row; /* Questo non è necessario ora, visto che useremo `position: absolute` */ /* Elimina qualsiasi gap tra le immagini */
+    height: 100%; /* Assicura che il contenitore abbia un'altezza adeguata */
+}
+
+#lineeUniversi img {
+    position: absolute; /* Posiziona le immagini sopra la stessa area */
+    width: 100%;
+    top: 0; /* Posiziona le immagini in cima al contenitore */
+    
+    clip-path: inset(0 0 100% 0); /* Inizialmente le immagini sono "nascoste" */
+}
+
+#lineeUniversi img:nth-child(1) {
+    margin-left: 15em;
+}
+
+#lineeUniversi img:nth-child(2) {
+    margin-left: 15.34em;
+}
+
+#lineeUniversi img:nth-child(3) {
+    margin-left: 15.6em;
+}
+
+
+#lineeUniversi img:nth-child(4) {
+    margin-left: 15.6em;
+}
+
+#lineeUniversi img:nth-child(5) {
+    margin-left: 17.05em;
+}
+
+
+#lineeVerticali {
+    display: flex;
+    flex-direction: row;
+    gap:12em;
+    justify-content: center; /* Spaziatura uniforme tra le linee */
+    position: absolute;
+    z-index: 1; /* Tra gli anni e le linee universi */
+    top: 6.2em; /* Allineamento verticale */
+    height: 100%; 
+    left: 15em;
+}
+
+.line {
+    width: 0; /* Linea sottile */
+    height: 100%; /* Altezza della linea */
+    border-left: 2px dashed #949494; /* Linea verticale tratteggiata */
+}
+
+#lineaLambda {
+    margin-left: 2em;
+}
+
+.container {
+    position: absolute;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 8em;
+}
+
+#twitter-container {
+    top: 16em;
+    left: 34em;
+    gap: 5em;
+}
+
+#ig-container {
+    top: 33em;
+    left: 13em;
+    gap: 3em;
+}
+#ig-container img:nth-child(3) {
+    margin-left: 11.5em;
+}
+
+#barilla-container {
+    top: 45em;
+    left: 51.5em;
+    gap: 6em;
+}
+
+#uber1-container {
+    top: 58em;
+    left: 25em;
+    gap: 16em;
+}
+
+#uber2-container {
+    top: 67em;
+    left: 10em;
+}
+#uber2-container img:nth-child(2) {
+    margin-left: 20em;
+}
+#uber2-container img:nth-child(4) {
+    margin-left: 8em;
+}
+
+#spoti-container {
+    top: 88em;
+    left: 22em;
+}
+#spoti-container img {
+    width: 11em;
+}
+
+#google1-container {
+    top: 98em;
+    left: 8em;
+    gap: 2em;
+}
+#google1-container img, #google2-container img, #google3-container img {
+    width: 9.5em;
+}
+#google1-container img:nth-child(2) {
+    margin-left: 18em;
+}
+
+#google2-container {
+    top: 107em;
+    left: 42em;
+    gap: 6em;
+}
+
+#google3-container {
+    top: 116em;
+    left: 22em;
+    gap: 10em;
+}
+
+#looney-container {
+    top: 139.5em;
+    left: 12em;
+    gap: 25em;
+}
+#looney-container img, #hp-container img, #deu-container img {
+    width: 10em;
+}
+
+#hp-container {
+    top: 148em;
+    left: 34em;
+    gap: 4em;
+}
+
+#deu-container {
+    top: 171em;
+    left: 36em;
+    gap: 1em;
+}
+
+#kitkat1-container {
+    top: 195.5em;
+    left: 12em;
+    gap: 3em;
+}
+#kitkat1-container img, #kitkat2-container img, #kitkat3-container img{
+    width: 9em;
+}
+#kitkat2-container {
+    top: 205em;
+    left: 45em;
+    gap: 6em;
+}
+
+#mc-container {
+    top: 216em;
+    left: 15em;
+    gap: 2em;
+}
+#mc-container img:nth-child(3) {
+    margin-left: 11.5em;
+}
+
+#lacoste-container {
+    top: 238em;
+    left: 12em;
+    gap: 3em;
+}
+#lacoste-container img:nth-child(3) {
+    margin-left: 13em;
+}
+
+#apple1-container {
+    top: 250em;
+    left: 25em;
+    gap: 17em;
+}
+#apple1-container img, #apple2-container img {
+    width: 10em;
+}
+
+#moschino1-container {
+    top: 258em;
+    left: 12em;
+    gap: 7em;
+}
+#moschino1-container img:nth-child(2) {
+    margin-left: 25em;
+}
+
+#apple2-container {
+    top: 279em;
+    left: 45em;
+    gap: 6em;
+}
+
+#pokemon-container {
+    top: 291em;
+    left: 27em;
+    gap: 10em;
+}
+
+#moschino2-container {
+    top: 300em;
+    left: 32em;
+    gap: 7em;
+}
+
+#versace-container {
+    top: 323em;
+    left: 30em;
+    gap: 2em;
+}
+
+#nike-container {
+    top: 342em;
+    left: 12em;
+    gap: 3em;
+}
+#nike-container img:nth-child(2) {
+    margin-left: 29em;
+}
+
+#adobe-container {
+    top: 356em;
+    left: 13em;
+    gap: 7em;
+}
+#adobe-container img {
+    width: 9em;
+}
+#adobe-container img:nth-child(3) {
+    margin-left: 2.5em;
+}
+
+#adidas-container {
+    top: 373.5em;
+    left: 13em;
+    gap: 3em;
+}
+
+#windows-container {
+    top: 397em;
+    left: 40em;
+    gap: 8em;
+}
+#windows-container img {
+    width: 12em;
+}
+
+#fruit1-container {
+    top: 412.5em;
+    left: 36em;
+    gap: 6em;
+}
+#fruit1-container img, #fruit2-container img, #fruit3-container img, #fruit4-container img {
+    width: 10em;
+}
+#fruit2-container {
+    top: 418em;
+    left: 20em;
+    gap: 22em;
+}
+#fruit3-container {
+    top: 438em;
+    left: 10em;
+    gap: 32em;
+}
+#fruit4-container {
+    top: 455em;
+    left: 48em;
+    gap: 3em;
+}
+
+#ibm-container {
+    top: 538em;
+    left: 36em;
+    gap: 3em;
+}
+
+#lidl1-container {
+    top: 564em;
+    left: 15em;
+    gap: 25em;
+}
+#lidl1-container img, #lidl2-container img {
+    width: 9em;
+}
+#lidl2-container {
+    top: 582em;
+    left: 27.5em;
+    gap: 12em;
+}
+
+#nutella-container {
+    top: 600em;
+    left: 48em;
+    gap: 5em;
+}
+
+#levis1-container {
+    top: 613em;
+    left: 34em;
+    gap: 6em;
+}
+#levis2-container {
+    top: 630em;
+    left: 12em;
+    gap: 28em;
+}
+
+#northface-container {
+    top: 645em;
+    left: 12em;
+    gap: 5em;
+}
+
+#shift1-container {
+    top: 670em;
+    left: 22em;
+    gap: 6.5em;
+}
+#shift2-container {
+    top: 679em;
+    left: 48em;
+    gap: 6em;
+}
+#shift3-container {
+    top: 700em;
+    left: 12em;
+    gap: 42.5em;
+}
+
+#canon-container {
+    top: 749em;
+    left: 12em;
+    gap: 30em;
+}
+
+#coca1-container {
+    top: 788em;
+    left: 38em;
+    gap: 3em;
+}
+#coca1-container img, #coca2-container img {
+    width: 9em;
+}
+#coca2-container {
+    top: 816em;
+    left: 12em;
+    gap: 2em;
+}
+#coca2-container img:nth-child(3) {
+    margin-left: 15em;
+}
+
+#rolex1-container {
+    top: 868em;
+    left: 23em;
+    gap: 4em;
+}
+#rolex2-container {
+    top: 877em;
+    left: 43em;
+    gap: 8em;
+}
+
+#prada1-container {
+    top: 903em;
+    left: 12em;
+    gap: 2em;
+}
+#prada1-container img, #prada2-container img {
+    width: 9em;
+}
+#prada1-container img:nth-child(2) {
+    margin-left: 29em;
+}
+#prada2-container {
+    top: 923em;
+    left: 24em;
+    gap: 5em;
+}
+
+#squares-container {
+    position: absolute; /* Assicurati che sia posizionato nel contesto relativo del layout */
+    z-index: 6; /* Tra #lineeUniversi (z-index: 2) e i div container (z-index: 5) */ /* Allineamento simile a #lineeUniversi */ /* Assicura che il contenitore copra l'altezza */
+}
+
+.square {
+    width: 1.5em;
+    height: 1.5em;
+    border-color: #394a9f;
+    background-color: rgba(57, 74, 159, 0.65);
+    position: absolute; /* Posizionamento assoluto per flessibilità */
+}
+
+
+.square-text {
+    left: 30em;
+    position: absolute;
+    background-color: #D9D9D9;
+    border: 2px solid rgba(0, 0, 0, 0.80); 
+    color: black;
+    padding: 1em;
+    display: none;
+    white-space: nowrap;
+    width: 13.5em;
+    z-index: 7;
+}
+
+.square-text hr {
+    border-radius: 1px solid rgba(0, 0, 0, 0.80) ;
+}
+
+#quadratino {
+    display: flex;
+    flex-direction: column;
+    gap: 20em;
+}

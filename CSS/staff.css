@@ -1,0 +1,34 @@
+.dossierGrid {
+    display: grid;
+    grid-template-columns: 22em 22em 22em 22em 22em;
+    height: 60px; 
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.dossierTitoliGrid {
+    display: grid;
+    grid-template-columns: 22em 22em 22em 22em 22em;
+}
+
+.staffdossier {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+}
+.staffdossier p {
+    max-width: 725px;
+}
+
+.staffTitoliGrid {
+    display: grid;
+    grid-template-columns: 30em 30em 30em ;
+}
+
+.staffGrid {
+    display: grid;
+    grid-template-columns: 30em 30em 30em ;
+    height: 60px; 
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}

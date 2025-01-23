@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFT Institute</title>
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/report.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.png" alt="SHIFT Logo">
+        </div>
+        <div class="pagine">
+            <button><a href="about.html">ABOUT</a> </button>
+            <button><a href="archive.html">ARCHIVE</a> </button>
+            <button><a href="timeline.html">TIMELINE</a> </button>
+            <button><a href="dossier.html">DOSSIER</a> </button>
+        </div>
+        <button id="reportdecoherence"><img src="assets/icona report-02.svg"> 
+            <a href="report.html">REPORT DECOHERENCE</a>
+        </button>
+    </header>
+    <div class="layout">
+        <div class="borderbottom">
+            <div class="topbottommargins container">
+                <h1>REPORT DECOHERENCE</h1>
+                <p>If you’ve noticed an anomaly in reality or believe you’ve experienced a Mandela Effect, complete this form to help us collect valuable data for research and verification purposes. 
+                    Reports are submitted under your name; however, SHIFT ensures complete confidentiality regarding your identity. Once submitted, a report cannot be modified or deleted. </p>       
+                <h2> WHAT TO REPORT </h2>
+                <p> You can report any inconsistencies in logos, graphics, or brand elements. 
+                    Provide detailed descriptions of anomalies, specifying differences from the expected version. Attach photos, documents, or links if available to help our team verify and analyze the effects accurately.</p>
+            </div>
+        </div>
+    </div>
+    <div class="layout">
+            <div class="topbottommargins container">
+               <form id="myform">
+              <h2>FILL OUT THE FORM</h2>
+                <section>
+                    <h3>PERSONAL INFORMATION</h3>
+                    <div class="form-row">
+                      <label>
+                        <input type="text" name="full_name" placeholder="Full name" required>
+                      </label>
+                      <label>
+                        <input type="text" name="email" placeholder="Email address">
+                      </label>
+                    </div>
+                  </section>
+            
+                  <section>
+                    <h3>ANOMALY DETAILS</h3>
+                    <div class="form-row">
+                      <label>
+                        <input type="text" name="date" placeholder="MM/DD/YYYY" required>
+                      </label>
+                      <label>
+                        <input type="text" name="location" placeholder="Location">
+                      </label>
+                    </div>
+                    <div class="form-row">
+                      <label>
+                        <input type="text" name="brand" placeholder="Affected brand">
+                      </label>
+                    </div>
+                <div class="form-row">
+                    <div class="checkboxes">
+                      <label>  Type of anomaly</label>
+                      <div class="checkbox-group">
+                        <label class="checkbox-label"><input type="checkbox" name="anomaly_type" value="Shape"> Shape</label>
+                        <label class="checkbox-label"><input type="checkbox" name="anomaly_type" value="Spelling"> Spelling</label>
+                        <label class="checkbox-label"><input type="checkbox" name="anomaly_type" value="Color"> Color</label>
+                      </div>
+                    </div>
+                    <div class="checkboxes">
+                      <label>Other witnesses</label>
+                      <div class="checkbox-group">
+                        <label class="checkbox-label">
+                          <input type="checkbox" name="witnesses" value="Yes" onclick="toggleCheckbox(this)"> Yes
+                        </label>
+                        <label class="checkbox-label">
+                          <input type="checkbox" name="witnesses" value="No" onclick="toggleCheckbox(this)"> No
+                        </label>
+                      </div>
+                    </div>
+                </div>
+                    <div class="form-row">
+                        <label>
+                          <textarea type="text" name="description" maxlength="600" placeholder="Description (max 600 characters)"></textarea>
+                        </label>
+                      </div>
+
+                    <div class="form-column">
+                      <label>
+                        <p> Attach evidence</p>
+                        <input type="file" name="evidence">
+                      </label>
+                    </div>
+                  </section>
+            
+                  <section>
+                    <h3>PRIVACY POLICY</h3>
+                    <div class="checkboxes">
+                      <label class="checkbox-group2 checkbox-label">
+                        <input type="checkbox" name="privacy_policy" required>
+                        I confirm that I have read the privacy policy about data processing.
+                      </label>
+                    </div>
+                  </section>
+            
+                  <button type="submit" class="submit-button">Submit</button>
+                </form>
+                <div id="thank-you-message" style="display:none;">
+                  Thank you for contributing!
+                </div>
+              </main>
+            
+              <script src="report.js"></script>
+            </div>
+    </div>
+
+
+    <footer>
+        <section class="footer"> 
+        <div id="logofooter">
+            <img src="assets/logo senza descrittore-08.png">
+        </div>
+        <div class="column">
+            <h3>EXPLORE</h3>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="archive.html">ARCHIVE</a>
+            <a href="timeline.html">TIMELINE</a>
+            <a href="dossier.html">DOSSIER</a>
+            <a href="report.html">REPORT DECOHERENCE</a>
+        </div>
+        <div class="column">
+            <h3>SHIFT PAVILION</h3>
+            <p>Rue du Mont-Blanc 10,<br>1201 Genève, Switzerland</p>
+            <p><strong>Monday:</strong> Closed<br>
+               <strong>Thursday - Friday:</strong> 10:30 a.m. - 06:00 p.m.<br>
+               <strong>Saturday - Sunday:</strong> 11:00 a.m. - 05:00 p.m.</p>
+        </div>
+        <div class="column">
+            <h3>CONTACTS</h3>
+            <p>info@shift.ch </p>
+            <p>administration@shift.ch</p>
+            <p>press@shift.ch</p>
+            <div class="icons">
+               <img src="assets/icona x-02.svg">
+               <img src="assets/icona ig-02.svg">
+               <img src="assets/icona yt-02.svg">
+               <img src="assets/icona facebook-02.svg">  
+            </div>
+        </div>
+        <div class="column legal">
+            <h3>LEGAL AREA</h3>
+            <p>Accessibility</p>
+            <p>Privacy policy</p>
+            <p>Terms and conditions</p>
+            <p>Cookies</p>
+            <p>Budget & annual reports</p>
+        </div>
+    </section>
+        <div class="bottom-note">
+            Website conform to WCAG 2.1 standard © 2024 SHIFT institute
+        </div>
+    </footer> 
+</body>

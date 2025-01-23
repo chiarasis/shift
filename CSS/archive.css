@@ -1,0 +1,83 @@
+#cose-fisse {
+    position: sticky;
+    top: 70px;
+    z-index: 9;
+    background-color: #fff;
+}
+
+#filtri-box {
+    display: flex;
+    flex-direction: row;
+    gap:38px;
+}
+#nomi-filtri {
+    display:flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+#filtri {
+    display: flex;
+    flex-direction: column;
+}
+.filter-buttons {
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+button {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.80);
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    font-family: "Geist Mono";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filter-btn.active {
+    background-color: #394A9F;
+    color: #fff;
+}
+
+.filter-btn.active:hover a {
+    opacity: 100%;
+}
+
+#titoli {
+    display: grid;
+    grid-template-columns: 15em 16em 18em 25em 15em;
+    border-bottom: 2px solid #000;
+}
+
+#linee-archivio {
+    overflow: hidden;
+    z-index: 8;
+}
+.archive-container {
+    display: grid;
+    grid-template-columns: 15em 16em 18em 25em 15em;
+    height: 60px; 
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+} 
+.archive-container:hover{
+    opacity:1
+}
+.archive-container {
+    opacity: 0.65;
+}
+.archive-item img {
+    height: 60px;
+    flex-shrink: 0;
+    justify-content:left;
+}
+
+
+
+  
+  

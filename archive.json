@@ -1,0 +1,751 @@
+[
+  {
+    "logo": "imgs/adidos.png",
+    "name": "Adidos",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Theta-Delta",
+    "category": "Clothing"
+  }, 
+   {
+    "logo": "imgs/adisad.png",
+    "name": "Adisad",
+    "timeline": "Xi",
+    "shiftedTimelines": "Sigma-Xi-Theta-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/adidas og.png",
+    "name": "Adidas⠀",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Sigma-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/adidas taglio.png",
+    "name": "Adidas",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Theta",
+    "category": "Clothing"
+  }, 
+   
+  
+  {
+    "logo": "imgs/abode.png",
+    "name": "Abode",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/adobe og.png",
+    "name": "Adobe",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Sigma-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/adobe specchiato.png",
+    "name": "Adobe",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi",
+    "category": "Services"
+  },
+
+  {
+    "logo": "imgs/apple og.png",
+    "name": "Apple",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/apple morso sx.png",
+    "name": "Apple",
+    "timeline": "Delta",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/apple foglia specchiata.png",
+    "name": "Apple",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Delta-Lambda",
+    "category": "Technology"
+  }, 
+  
+  {
+    "logo": "imgs/barilla og.png",
+    "name": "Barilla",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Lambda",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/barila.png",
+    "name": "Barila",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Food&Drinks"
+  },
+ 
+  {
+    "logo": "imgs/camon.png",
+    "name": "Camon",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/canon.png",
+    "name": "Canon",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma",
+    "category": "Technology"
+  },
+
+  {
+    "logo": "imgs/cocaondacola.png",
+    "name": "Coca~Cola",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Food&Drinks"
+  }, 
+  {
+    "logo": "imgs/colacola.png",
+    "name": "ColaCola",
+    "timeline": "Xi",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/coca-cola.png",
+    "name": "Coca-Cola",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta-Lambda",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/cocacola.png",
+    "name": "CocaCola",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta-Lambda",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/cocacola og.png",
+    "name": "Coca·Cola",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta-Theta",
+    "category": "Food&Drinks"
+  },
+ 
+  {
+    "logo": "imgs/deutschebank_1_originale.png",
+    "name": "Deutsche Bank",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/deutschebank_2.png",
+    "name": "Deutsche Bank",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/fruitoftheloom_4.png",
+    "name": "Fruit Of The Loom",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/fruitoftheluum.png",
+    "name": "Fruit Of The Luum",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/fruitoftheloom_2.png",
+    "name": "Fruit Of The Loom",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/fruitoftheloom_3.png",
+    "name": "Fruit Of The Loom",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/fruitoftheloom_1_originale.png",
+    "name": "Fruit Of The Loom",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Clothing"
+  },
+  
+  {
+    "logo": "imgs/google_1_originale.png",
+    "name": "Google",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Theta-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/google_2.png",
+    "name": "Google",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/google_5.png",
+    "name": "Google",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/google_3.png",
+    "name": "Google",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Xi",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/google_4.png",
+    "name": "Google",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Technology"
+  },
+ 
+  {
+    "logo": "imgs/hift.png",
+    "name": "HIFT",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/hp_1_originale.png",
+    "name": "HP",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Technology"
+  },
+  {
+    "logo": "imgs/hp_2.png",
+    "name": "HP",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Technology"
+  },
+  
+  {
+    "logo": "imgs/ibm_1_originale.png",
+    "name": "IBM",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/ibm_2.png",
+    "name": "IBM",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/insta_sx.png",
+    "name": "Instagram",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Media"
+  },
+  {
+    "logo": "imgs/insta_double.png",
+    "name": "Instagram",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Sigma-Delta",
+    "category": "Media"
+  },
+  {
+    "logo": "imgs/insta_original.png",
+    "name": "Instagram",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi",
+    "category": "Media"
+  },
+  
+  {
+    "logo": "imgs/kitkat_1_originale.png",
+    "name": "KitKat",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Theta-Delta",
+    "category": "Food&Drinks"
+  }, 
+  {
+    "logo": "imgs/kitkat_5.png",
+    "name": "KitKat",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Sigma-Theta-Delta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/kitkat_4.png",
+    "name": "KatKit",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Sigma-Xi-Delta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/kitkat_3.png",
+    "name": "KitKit",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/kitkat_2.png",
+    "name": "Kit-Kat",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Food&Drinks"
+  },
+  
+  {
+    "logo": "imgs/lacoste og.png",
+    "name": "Lacoste",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/lacoste.png",
+    "name": "Lacoste",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta-Sigma",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/lacosta.png",
+    "name": "Lacosta",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi",
+    "category": "Clothing"
+  },  
+  
+  {
+    "logo": "imgs/Levis_3.png",
+    "name": "Levis",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/Levis_1_originale.png",
+    "name": "Levi's",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/Levis_2.png",
+    "name": "Levis",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Clothing"
+  },
+  
+  
+  
+  {
+    "logo": "imgs/lidl_2.png",
+    "name": "Lidl",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/lidl 4.png",
+    "name": "Lidl",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/lidl_1_originale.png",
+    "name": "Lidl",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/looney_toons.png",
+    "name": "Looney Toones",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta",
+    "category": "Media"
+  },
+  {
+    "logo": "imgs/looney_tunes.png",
+    "name": "Looney Tunes",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma",
+    "category": "Media"
+  },
+  
+  {
+    "logo": "imgs/mc_2.png",
+    "name": "McDonald",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Delta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/mc_1.png",
+    "name": "McDonald",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Sigma-Delta",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/mc_3.png",
+    "name": "McDonald",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi",
+    "category": "Food&Drinks"
+  },
+  
+  {
+    "logo": "imgs/moschino_2.png",
+    "name": "Moscino",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta-Lambda",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/moschino_3.png",
+    "name": "Meschino",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/moschino_4.png",
+    "name": "Moskino",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Lambda",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/moschino_1.png",
+    "name": "Moschino",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Sigma-Delta",
+    "category": "Luxury"
+  }, 
+  
+  {
+    "logo": "imgs/nike_1.png",
+    "name": "Nike",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta-Lambda",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/nike_3.png",
+    "name": "Nike",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Lambda-Sigma",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/nike_2.png",
+    "name": "Nike",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Sigma-Delta",
+    "category": "Clothing"
+  },
+
+  {
+    "logo": "imgs/nutella_1.png",
+    "name": "Nutella",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Lambda",
+    "category": "Food&Drinks"
+  },
+  {
+    "logo": "imgs/nutella_2.png",
+    "name": "Nutella",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Food&Drinks"
+  },
+
+  {
+    "logo": "imgs/pokemonoriginal.png",
+    "name": "Pokémon",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta-Lambda",
+    "category": "Media"
+  },
+  {
+    "logo": "imgs/pokemonconlao.png",
+    "name": "Pokómon",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Xi-Lambda",
+    "category": "Media"
+  },
+  {
+    "logo": "imgs/pokemonaccento.png",
+    "name": "Pokemón",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Xi-Delta",
+    "category": "Media"
+  },
+  
+  {
+    "logo": "imgs/prada3.png",
+    "name": "Parda",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Delta-Lambda",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/prada5.png",
+    "name": "Prada",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Theta-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/prada4.png",
+    "name": "Prada",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Xi-Delta",
+    "category": "Luxury"
+  }, 
+  {
+    "logo": "imgs/prada2.png",
+    "name": "Parada",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Lambda",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/pradaoriginal.png",
+    "name": "Prada",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta-Sigma",
+    "category": "Luxury"
+  },
+  
+  {
+    "logo": "imgs/rolex3.png",
+    "name": "Rolex",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Theta-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/rolexoriginal.png",
+    "name": "Rolex",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Xi-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/rolex4.png",
+    "name": "Rollex",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Xi-Theta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/rolex2.png",
+    "name": "Rolex",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Luxury"
+  }, 
+  
+  {
+    "logo": "imgs/shift gradino.png",
+    "name": "SHIFT",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Theta-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/sift.png",
+    "name": "SHIFT",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta-Xi",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/shift og.png",
+    "name": "SHIFT",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta-Xi",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/shift stretto.png",
+    "name": "SHIFT",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/spotify_3.png",
+    "name": "Spoti",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Theta-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/spotify_2.png",
+    "name": "Spotify",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta-Xi",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/spotify_1.png",
+    "name": "Spotilfy",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Xi-Theta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/north_face_4.png",
+    "name": "The East Face",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Xi-Theta-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/north_face_3.png",
+    "name": "The West Face",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Sigma-Theta-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/north_face_1.png",
+    "name": "The North Face",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Sigma-Xi-Delta",
+    "category": "Clothing"
+  },
+  {
+    "logo": "imgs/north_face_2.png",
+    "name": "The South Face",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta",
+    "category": "Clothing"
+  },
+  
+  {
+    "logo": "imgs/twitter.png",
+    "name": "Twitter",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Delta",
+    "category": "Media"
+  },
+  
+  {
+    "logo": "imgs/uber4.png",
+    "name": "Ubeer",
+    "timeline": "Sigma",
+    "shiftedTimelines": "Sigma-Theta-Delta-Lambda",
+    "category": "Services"
+  }, 
+  {
+    "logo": "imgs/uber5.png",
+    "name": "Ubar",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/uberoriginal.png",
+    "name": "Uber",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Sigma-Delta-Lambda",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/uber3.png",
+    "name": "Ubber",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Xi",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/uber2.png",
+    "name": "Ubor",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Sigma-Theta-Delta",
+    "category": "Services"
+  },
+  
+  {
+    "logo": "imgs/versace_3.png",
+    "name": "Versaci",
+    "timeline": "Xi",
+    "shiftedTimelines": "Xi-Theta-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/versace_2.png",
+    "name": "Verace",
+    "timeline": "Theta",
+    "shiftedTimelines": "Theta-Xi-Delta",
+    "category": "Luxury"
+  },
+  {
+    "logo": "imgs/versace_1.png",
+    "name": "Versace",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Lambda",
+    "category": "Luxury"
+  },
+  
+  {
+    "logo": "imgs/windows_2.png",
+    "name": "Windows",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Lambda",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/windows_1_originale.png",
+    "name": "Windows",
+    "timeline": "Lambda",
+    "shiftedTimelines": "Lambda-Delta",
+    "category": "Services"
+  },
+  {
+    "logo": "imgs/twitter2.png",
+    "name": "X",
+    "timeline": "Delta",
+    "shiftedTimelines": "Delta-Theta",
+    "category": "Media"
+  }
+  ]
+  

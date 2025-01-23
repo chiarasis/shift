@@ -1,0 +1,62 @@
+.button {
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: 1px rgba(0, 0, 0, 0.80) solid;
+    align-items: center; 
+    gap: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    }
+    .button:hover a {
+        opacity: 100%; 
+    }
+    .button img {
+        width: 16px;
+        height: 16pxS;
+    }
+
+
+    .departments {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:83px;
+    }
+    .departments div {
+        max-width: 353px;
+        text-align: left;
+    }
+    .departments img {
+        margin-top: 10px;
+    }
+    .about1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:  center;
+    }
+    .about1 img{
+        height: fit-content;
+        width: fit-content;
+    }
+    .borderbottom {
+        border-bottom: 1px solid #000;
+        padding-top: 40px;
+    }
+    .bordertop {
+        border-top: 1px solid #000;
+        padding-bottom: 20px;
+    }
+    video {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+

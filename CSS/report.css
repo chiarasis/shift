@@ -1,0 +1,159 @@
+.borderbottom {
+    border-bottom: 1px solid #333;
+    padding-top: 40px;
+}
+.bordertop {
+    border-top: 1px solid #333;
+    padding-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+  align-items: baseline;
+}
+.form-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.form-column p{
+  padding-left: 8px;
+  margin: 0px;
+}
+
+label {
+  display: block;
+  flex: 1;
+  margin-right: 10px;
+  font-family: geist mono;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  outline: none;
+  transition: border-bottom 0.4s ease-in-out;
+}
+input[type="file"] {
+  font-family: geist mono;
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 6px;
+}
+
+input[type="text"]::placeholder {
+  font-family: GEIST MONO;
+  font-size: 16px;
+  color: #333;
+}
+
+
+input[type="text"]:focus {
+border: 1px solid #333;
+color: #333;
+opacity: 65%;
+}
+
+input[type="text"]:not(:placeholder-shown) {
+border: 1px solid #333;
+color: #333;
+opacity: 100%;
+}
+.checkboxes {
+  justify-content: left;
+}
+.checkboxes label {
+  padding-left: 8px;
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-group2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+.checkbox-label {
+    display: flex;
+    align-items:center;
+}
+input[type="checkbox"]{
+    appearance: none;
+    width: 24px; 
+    height: 24px;
+    border: 1px solid #333; 
+    border-radius: 0px;
+    cursor: pointer; /* Cambia il cursore */
+    transition: all 0.2s ease; /* Transizione per un effetto fluido */
+    margin-right: 20px;
+}
+input[type="checkbox"]:checked {
+    border-color: #3548a8;
+    background-image: url("icone/check-02.png");
+    background-position: center;
+    background-size: contain;
+  }
+
+textarea {
+    height: 236px;
+    width: 715px;
+    vertical-align: top;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    outline: none;
+    transition: border-bottom 0.4s ease-in-out;
+    font-family: GEIST MONO;
+    font-size: 16px;
+  }
+textarea::placeholder{
+    color: #333;
+    opacity: 100%;
+  }
+textarea:focus{
+    border: 1px solid #333;
+    color: #333;
+    opacity: 65%;
+  }
+textarea:not(:placeholder-shown){
+    border: 1px solid #000;
+    color: #000;
+    opacity: 100%;
+  }
+
+.submit-button {
+  width: auto;
+  padding: 10px 15px 10px 15px;
+  border: 1px rgba(0, 0, 0,) solid;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+  background-color: #2d3e91;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: geist mono;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.65);
+
+}
+
+.submit-button:hover {
+  color: rgba(255, 255, 255, 1); /* Testo al 100% di opacità */
+}
+
+#thank-you-message {
+  font-size: 18px;
+  font-family: Geist mono;
+  color:#2d3e91;
+  margin-top: 20px;
+}

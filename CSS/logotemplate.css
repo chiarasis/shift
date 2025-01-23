@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assicura che il padding non influisca sulla larghezza */
+  }
+
+
+.pagine {
+    padding-left: 402px;
+    padding-right: 258px;
+}
+
+
+h1 {
+    color: #394A9F;
+    font-family: "Geist Mono";
+    font-size: 20px;
+    font-weight: 400;
+}
+p {
+    color: #000;
+font-family: "Geist Mono";
+font-size: 16px;
+font-weight: 400;
+}
+hr {
+    width: 1224px;
+    height: 0px;
+    stroke-width: 3px;
+    stroke: #949494;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#layout {
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+
+#loghi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: fit-content;
+    gap: 145px;
+}
+#logo-grande img {
+    width: 726px;
+height: 411px;
+}
+#related-versions img {
+    width: 360.5px;
+    height: 200px;   
+}
+#colonne {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+.colonne-description {
+    max-width: 353px;
+}
+
+.gallery-layout {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;   
+}
+#title-arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 1026px; 
+}
+#arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 83px;
+}
+#arrows img {
+    height: 30px;
+}
+.gallery-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.gallery {
+    display: flex;
+    transition: transform 0.4s ease; /* Animazione fluida */
+    will-change: transform; /* Ottimizzazione del rendering */
+    visibility:visible;
+}
+.gallery img {
+    height: 309px;
+    padding-right: 20px;
+}
+
+
+
