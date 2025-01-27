@@ -1,3 +1,4 @@
+@media (300px<width<1700px) {
 html, body {
     margin: 0;
     font-family: Geist;
@@ -217,7 +218,11 @@ footer p {
 }
 
 .dropdown {
-    display: none;
+    display:none;
+}
+li {
+    display: none;
+}
 }
 
 /* Media Query per schermi più piccoli */
@@ -240,6 +245,9 @@ footer p {
     .topbottommargins{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    body {
+        font-family: Geist;
     }
 
 
@@ -275,6 +283,9 @@ footer p {
         height: 34px;
         background-image:url(icone/menublu.png);
     }
+    body {
+        font-family: Geist;
+    }
 }
 
 /* Smartphone */
@@ -291,6 +302,9 @@ footer p {
     }
     .pagine, #reportdecoherence {
         display: none;
+    }
+    body {
+        font-family: Geist;
     }
 }
 
@@ -368,5 +382,8 @@ footer p {
     
     ul li a:hover {
         background: #394A9F;
+    }
+    body {
+        font-family: Geist;
     }
 }
