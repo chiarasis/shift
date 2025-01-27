@@ -26,8 +26,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         gap:83px;
+        margin-right: 144px;
     }
     .departments div {
         max-width: 353px;

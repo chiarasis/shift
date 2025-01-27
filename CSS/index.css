@@ -41,13 +41,13 @@
     justify-content: space-between;
     gap: 83px;
     align-items: center;
+    margin-left: 144px;
 }
 .resources div {
     max-width: 353px;
     text-align: left;
 }
 .resources div img {
-    max-width: 100%;
     height: auto;
 }
 
@@ -60,10 +60,11 @@
 }
 #loghi1 {
     display: flex;
-    gap: 65px;
+    justify-content: space-between;
     align-content: first baseline;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 144px;;
 }
 #loghi1 img {
     height: 100%;
@@ -91,6 +92,13 @@
         flex-wrap: wrap;
         gap: 5%;
         row-gap: 10px;
+    }
+    footer {
+        background-color: #C4C4C4;
+        padding-bottom: 40px;
+        border-top: 1px solid #000;
+        font-family: Geist Mono;
+        margin: 0;
     }
 
 }
