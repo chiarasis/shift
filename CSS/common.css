@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @media (300px<width<1700px) {
 html, body {
     margin: 0;
@@ -63,15 +69,16 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid #000;
     position: fixed;
-    top: 0;
     z-index: 10;
     width: 100%;
+    margin: 0;
 }
 
 .pagine {
     display: flex;
     justify-content: center;
     padding-left: 10em;
+    margin-top: 15px;
 }
 
 header .logo img {
@@ -104,7 +111,6 @@ header a {
 
 #reportdecoherence {
     height: auto;
-    margin-right: 20px;
     padding-top: 10px; 
     padding-bottom: 10px; 
     border: 1px white solid;
@@ -112,6 +118,8 @@ header a {
     display: flex;
     justify-content: space-between;
     gap: 10px; 
+    margin: 0;
+    margin-right: 20px;
 }
 
 #reportdecoherence:hover {
@@ -217,11 +225,10 @@ footer p {
     text-align: center;
 }
 
-.dropdown {
+ul {
     display:none;
-}
-li {
-    display: none;
+    visibility: hidden;
+    position: absolute;
 }
 }
 
@@ -266,8 +273,10 @@ li {
     .pagine {
         padding-left: 0;
     }
-    #menutendina {
+    #menutendina, ul {
         display: block;
+        visibility: visible;
+        position: static;
     }
     #menutendina:hover {
         background-color: #fff;
