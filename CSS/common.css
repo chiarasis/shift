@@ -8,7 +8,7 @@
 html, body {
     margin: 0;
     font-family: Geist;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #333;
     padding: 0;
@@ -19,12 +19,12 @@ html, body {
 h1 {
     margin: 0;
     color: #394A9F; 
-    font-size: 48px;
+    font-size: 47px;
     font-family: Geist Mono; 
     font-weight: 700; 
 }
 h2 {
-    font-size: 28px;
+    font-size: 27px;
     font-family: Geist Mono;
     color: #394A9F;
     font-weight: 600;
@@ -33,21 +33,21 @@ h2 {
 h3 {
     color: #394A9F;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     font-family: Geist Mono;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 h4 {
     color: #394A9F;
-    font-size: 16px;
+    font-size: 15px;
     font-family: Geist Mono;
     font-weight: 400;
 }
 
 .layout {
     margin-left: 144px;
-    margin-right: 144px;
+    margin-right: 200px;
 }
 
 .topbottommargins {
@@ -64,7 +64,7 @@ header {
     color: #fff;
     display: flex;
     flex-direction: row;
-    height: 70px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #000;
@@ -78,7 +78,6 @@ header {
     display: flex;
     justify-content: center;
     padding-left: 10em;
-    margin-top: 15px;
 }
 
 header .logo img {
@@ -92,7 +91,7 @@ header button {
     text-decoration: none;
     background-color: #394A9F;
     width: auto; 
-    height: 70px;
+    height: 60px;
     padding-left: 15px; 
     padding-right: 15px;
     justify-content: center; 
@@ -118,7 +117,6 @@ header a {
     display: flex;
     justify-content: space-between;
     gap: 10px; 
-    margin: 0;
     margin-right: 20px;
 }
 
