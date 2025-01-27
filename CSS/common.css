@@ -81,7 +81,6 @@ header .logo img {
 header button {
     font-family: Geist Mono;
     text-decoration: none;
-    background-color: #394A9F;
     width: auto; 
     height: 60px;
     padding-left: 15px; 
@@ -92,6 +91,7 @@ header button {
     border-color: #394A9F;
     border-bottom: #394A9F;
     border-right: #394A9F;
+    background-color: #394A9F;
 }
 
 header a {
