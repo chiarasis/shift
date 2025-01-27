@@ -40,6 +40,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 83px;
+    align-items: center;
 }
 .resources div {
     max-width: 353px;

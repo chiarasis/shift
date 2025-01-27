@@ -78,7 +78,7 @@
 #lineeVerticali {
     display: flex;
     flex-direction: row;
-    gap:125px;
+    gap:12.5em;
     justify-content: center; /* Spaziatura uniforme tra le linee */
     position: absolute;
     z-index: 1; /* Tra gli anni e le linee universi */
