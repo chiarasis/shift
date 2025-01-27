@@ -216,17 +216,8 @@ footer p {
     text-align: center;
 }
 
-#menutendina {
-    height: auto;
-    margin-right: 20px;
-    padding-top: 5px; 
-    padding-bottom: 5px; 
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
-    display:none;
-    justify-content: space-between;
-    gap: 10px; 
+.dropdown {
+    display: none;
 }
 
 /* Media Query per schermi più piccoli */
@@ -300,5 +291,82 @@ footer p {
     }
     .pagine, #reportdecoherence {
         display: none;
+    }
+}
+
+@media (width<768px) {
+    .layout {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .pagine {
+        padding-left: 0;
+        display: none;
+    }
+    #reportdecoherence{
+        display: none;
+    }
+    #menutendina {
+        justify-self: left;
+        margin-right: 20px;
+        position: relative;
+    }
+    
+    #menu-icona {
+        width: 32px;
+        height: 34px;
+        background-image: url(icone/menu-02.png);
+        background-size: contain;
+        cursor: pointer;
+        background-repeat: no-repeat;
+
+    }
+    
+    #menutendina:hover #menu-icona {
+        background-image: url(icone/menublu.png);
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-right: 0;
+    }
+    
+    ul li {
+        position: relative;
+    }
+    
+    ul li a {
+        display: block;
+        font-family: "Geist Mono";
+        text-decoration: none;
+        color: #fff;
+        opacity: 65%;
+        padding: 10px 15px;
+        text-align: left;
+        width: 220px;
+    }
+    
+    ul li ul.dropdown {
+        display: none;
+        position: absolute;
+        background-color: #394A9F;
+        z-index: 999;
+        right: -20px;
+    }
+    
+    ul li ul.dropdown li {
+        display: block;
+    }
+    
+    ul li:hover ul.dropdown {
+        display: block;
+    }
+    
+    ul li a:hover {
+        background: #394A9F;
     }
 }
