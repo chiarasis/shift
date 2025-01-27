@@ -59,8 +59,7 @@
 }
 #loghi1 {
     display: flex;
-    justify-content: space-between;
-    gap: 46px;
+    gap: 65px;
     align-content: first baseline;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -72,6 +71,54 @@
 #loghi2 {
     display: flex;
     justify-content: left;
-    gap: 46px;
+    gap: 65px;
     align-content: first baseline;
 }
+
+
+@media (320px <=width<=1200px) {
+    .blu, .blu img {
+        height: 600px;
+        gap: 5px;
+    }
+    .blu div {
+        max-width: 800px;
+        margin-right: 50px;
+    }
+    #loghi1, #loghi2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        row-gap: 10px;
+    }
+
+}
+@media (width <= 950px) {
+    .blu {
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+        gap: 20px;
+        justify-content: center;
+    }
+    .blu img {
+        width: 100%;
+        height: 500px;
+    }
+    .blu div {
+        margin-left: 20px;
+    }
+}
+@media (width <= 1400px) {
+    .resources {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (width<=468px) {
+#heroimg {
+    width: 160%;
+}
+}
+

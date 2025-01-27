@@ -10,7 +10,7 @@
 
 <header>
     <div class="logo">
-        <img src="/imgs/logo.png" alt="SHIFT Logo">
+        <img src="/assets/logo.png" alt="SHIFT Logo">
     </div>
     <div class="pagine">
         <button><a href="about.html">ABOUT</a> </button>
@@ -18,84 +18,93 @@
         <button><a href="timeline.html">TIMELINE</a> </button>
         <button><a href="dossier.html">DOSSIER</a> </button>
     </div>
-    <button id="reportdecoherence"><img src="icons/icona report-02.svg"> 
+    <button id="reportdecoherence"><div id="report-icona"></div>
         <a href="report.html">REPORT DECOHERENCE</a>
     </button>
+    <button id="menutendina"><div id="menu-icona"></div> 
+    </button>
+    
 </header>
 
 <body>
-    <div id="layout">
+    <div class="layout">
 
-        <div id="loghi"> 
+        <div id="loghi" class="topbottommargins"> 
 
             <div id="logo-grande">
-            <h1> NAME </h1>
+            <h3> NAME </h3>
             <p id="name"> </p>
             <img> 
             </div>
 
             <div id="related-versions">
-            <h1> RELATED VERSIONS </h1>
-            <p id="related_versions_1"> </p>
-            <img>
+            <h3> RELATED VERSIONS </h3>
+            <div>
+                <div><p id="related_versions_1"> </p>
+                <img> </div>
+            </div>    
 
-            <p id="related_versions_2"> </p>
-            <img>
+            <div><p id="related_versions_2"> </p>
+            <img> </div>
+
+            <div><p id="related_versions_3"> </p>
+            <img> </div>
+
+            <div><p id="related_versions_4"> </p>
+            <img> </div>
             </div>
     
         </div> 
 
-        <hr>
-
-        <div class="gallery-layout">
+        <div class="gallery-layout topbottommargins">
             <div id="title-arrows">
-                <h1> GALLERY </h1>
+                <h3> GALLERY </h3>
                 <div id="arrows">
                     <img src="icons/icona arrow sx-02.svg">
                     <img src="icons/icona arrow dx-02.svg">
                 </div>
             </div>    
             
-            <div class="gallery-wrapper">
+            <div class="gallery-wrapper ">
                 <div class="gallery">
-                    <img>
                     <img>
                     
                 </div>
             </div>    
         </div>
-        
-        <hr>
 
         <div id="colonne">
 
             <div class="colonne-description">
-            <h1> DESCRIPTION </h1>
+            <h3> DESCRIPTION </h3>
             <p id="logo-description"></p>
             </div>
 
             <div class="colonne-description">
-            <h1> SERIAL NUMBER </h1>
+            <h3> SERIAL NUMBER </h3>
             <p id="serial number"></p>
-            <h1> PERMALINK </h1>
+            <h3> PERMALINK </h3>
             <p id="permalink"></p>
-            <h1> TAGS </h1>
+            <h3> TAGS </h3>
             <p id="tags"></p>
-            <h1> LAST UPDATE </h1>
+            <h3> LAST UPDATE </h3>
             <p id="last-update"></p>
             </div>
 
             <div class="colonne-description">
-            <h1> ORIGINAL TIMELINE </h1>
+            <h3> ORIGINAL TIMELINE </h3>
             <p id="original-timeline"></p>
-            <h1> SHIFTED TIMELINES </h1>
+            <h3> SHIFTED TIMELINES </h3>
             <p id="shifted-timelines"></p>
-            <h1> YEAR </h1>
+            <h3> YEAR </h3>
             <p id="year"></p>
-            <h1> SHIFT TYPE </h1>
-            <p id="shift-type"></p>
-            <img>
-            <img>
+            <h3> SHIFT TYPE </h3>
+            <div id="shift-tipo">
+                <img>
+                <img>
+                <img>
+                <p id="shift-type"></p>
+            </div>
             </div>
 
         </div>  

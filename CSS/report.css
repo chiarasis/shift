@@ -157,3 +157,13 @@ textarea:not(:placeholder-shown){
   color:#2d3e91;
   margin-top: 20px;
 }
+
+@media (width<=468px) {
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+  textarea {
+    width: 250px;
+  }
+}

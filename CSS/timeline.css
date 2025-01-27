@@ -1,3 +1,4 @@
+@media (1400px<=width<=1800px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -6,6 +7,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-top: 90px;
 }
 
 .filter-buttons {
@@ -52,7 +54,7 @@
 }
 
 #lineeUniversi img:nth-child(1) {
-    margin-left: 15em;
+    margin-left: 31%;
 }
 
 #lineeUniversi img:nth-child(2) {
@@ -298,14 +300,7 @@ img {
     gap: 3em;
 }
 
-#windows-container {
-    top: 397em;
-    left: 40em;
-    gap: 8em;
-}
-#windows-container img {
-    width: 12em;
-}
+
 
 #fruit1-container {
     top: 412.5em;
@@ -477,3 +472,21 @@ img {
     flex-direction: column;
     gap: 20em;
 }
+#timeline-statica {
+    display: none;
+    z-index: 6;
+    margin: 2000px;
+}
+}
+
+@media (width<=1400px) {
+    .timelineContainer {
+        display: none;
+    }
+    #timeline-statica {
+        display: block;
+    }
+
+}
+
+

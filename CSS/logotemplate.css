@@ -1,51 +1,13 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Assicura che il padding non influisca sulla larghezza */
-  }
-
-
-.pagine {
-    padding-left: 402px;
-    padding-right: 258px;
-}
-
-
-h1 {
-    color: #394A9F;
-    font-family: "Geist Mono";
-    font-size: 20px;
-    font-weight: 400;
-}
-p {
-    color: #000;
-font-family: "Geist Mono";
-font-size: 16px;
-font-weight: 400;
-}
-hr {
-    width: 1224px;
-    height: 0px;
-    stroke-width: 3px;
-    stroke: #949494;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-#layout {
-    padding-left: 144px;
-    padding-right: 144px;
-}
-
-
 #loghi {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: fit-content;
     gap: 145px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    margin-top: 90px;
 }
 #logo-grande img {
-    width: 726px;
+width: 726px;
 height: 411px;
 }
 #related-versions img {
@@ -69,7 +31,7 @@ height: 411px;
 #title-arrows {
     display: flex;
     flex-direction: row;
-    gap: 1026px; 
+    justify-content: space-between;
 }
 #arrows {
     display: flex;
@@ -78,21 +40,84 @@ height: 411px;
 }
 #arrows img {
     height: 30px;
+    cursor: pointer;
 }
 .gallery-wrapper {
     overflow: hidden;
     width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    padding-bottom: 40px;
 }
 .gallery {
-    display: flex;
-    transition: transform 0.4s ease; /* Animazione fluida */
-    will-change: transform; /* Ottimizzazione del rendering */
-    visibility:visible;
+    display: flex; /* Allinea le immagini orizzontalmente */
+    overflow: hidden; /* Nasconde l'overflow quando le immagini si spostano */
+    transition: transform 0.4s ease; /* Rende fluido lo spostamento delle immagini */
 }
+
 .gallery img {
+    flex-shrink: 0; /* Impedisce che le immagini si comprimano */
+    object-fit: contain; /* Assicura che le immagini non vengano distorte */
+    transition: transform 0.4s ease; /* Aggiungi una transizione alle immagini */
     height: 309px;
-    padding-right: 20px;
+    margin-right: 1em;
 }
+
+p {
+    font-family: Geist mono;
+}
+
+#shift-tipo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+#shift-tipo img {
+    width: 7%;
+    height: auto;
+}
+
+#related-versions {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (width<=1024px) {
+    #loghi, #colonne {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+@media (width<=600px) {
+    #logo-grande img {
+        width: 100vw;
+        height: auto;
+    } 
+    #related-versions img {
+        width: 60vw;
+        height: auto;
+    }
+    .gallery img {
+        height: 170px;
+    }
+}
+@media (width<=1400px) {
+    .dossierTitoliGrid, .dossierGrid {
+        grid-template-columns: 30% 30% 30% 30% 30%;
+    }
+    .staffTitoliGrid, .staffGrid {
+        grid-template-columns: 35% 35% 35%;
+    }
+}
+
+@media (width<=468px) {
+.dossierTitoliGrid, .dossierGrid, .staffTitoliGrid, .staffGrid {
+    grid-template-columns: 50% 50%;
+}
+#data-titolo, .date, .email, .email-titolo {
+    display: none;
+}
+}
+
 
 
 

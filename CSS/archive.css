@@ -1,5 +1,5 @@
 #cose-fisse {
-    position: sticky;
+    position:sticky;
     top: 70px;
     z-index: 9;
     background-color: #fff;
@@ -9,16 +9,19 @@
     display: flex;
     flex-direction: row;
     gap:38px;
+    justify-content: baseline;
 }
 #nomi-filtri {
     display:flex;
     flex-direction: column;
     gap: 27px;
+    
 }
 
 #filtri {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .filter-buttons {
     display:flex;
@@ -57,6 +60,7 @@ button {
     overflow: hidden;
     z-index: 8;
 }
+
 .archive-container {
     display: grid;
     grid-template-columns: 15em 16em 18em 25em 15em;
@@ -73,8 +77,52 @@ button {
 }
 .archive-item img {
     height: 60px;
-    flex-shrink: 0;
+    
     justify-content:left;
+}
+
+#archivio {
+    margin-top: 70px;
+}
+
+@media (481px <=width<=1500px) {
+    #titoli, .archive-container {
+        grid-template-columns: 20% 17% 20% 22% 20%;
+        gap: 20px;
+    }
+}
+
+@media (320px <=width<=768px) {
+    #shiftedTimelines, #titolo-shifted {
+        display: none;
+    }
+    .filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1px;
+    }
+    .filter-btn {
+        margin-top: 0;
+    }
+    #cose-fisse {
+        margin-top: 100px;
+    }
+    #archivio {
+        margin-top:0;
+    }
+    #nomi-filtri {
+        gap: 35px;
+    }
+}
+
+@media (width<=468px) {
+#titoli, .archive-container {
+    gap: 10px;
+    grid-template-columns: 50% 20%;
+}
+#titolo-timeline, #titolo-category {
+    display: none;
+}
 }
 
 

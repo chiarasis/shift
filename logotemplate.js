@@ -5,106 +5,135 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Verifica se il parametro esiste
     if (!logoName) {
-        document.getElementById("layout").innerHTML = "<p>Logo not found!</p>";
+        document.querySelector(".layout").innerHTML = "<p>Logo not found!</p>";
         return;
     }
 
-    // Carica i dati dal file JSON
-    fetch("data.json")
-        .then(response => response.json())
-        .then(data => {
-            // Cerca il logo corrispondente
-            const logoData = data.find(item => item.name === logoName);
+    // Funzione per caricare i dati da un singolo file JSON
+    const fetchData = async () => {
+        try {
+            const data = await fetch("data.json").then(response => response.json());
+            return data; // Restituisce solo i dati di data.json
+        } catch (error) {
+            console.error("Errore nel caricamento del file JSON:", error);
+            document.querySelector(".layout").innerHTML = "<p>Errore nel caricamento dei dati.</p>";
+            throw error;
+        }
+    };
 
-            if (!logoData) {
-                document.getElementById("layout").innerHTML = "<p>Logo not found!</p>";
-                return;
+    fetchData().then(data => {
+        // Cerca il logo corrispondente
+        const logoData = data.find(item => item.name === logoName);
+
+        if (!logoData) {
+            document.querySelector(".layout").innerHTML = "<p>Logo not found!</p>";
+            return;
+        }
+
+        // Popola i dati nel layout
+        document.getElementById("name").textContent = logoData.name;
+        document.querySelector("#logo-grande img").src = logoData.logo_image || "images/default_logo.png";
+
+        // Popola le versioni correlate
+        const relatedContainer = document.querySelector("#related-versions");
+        const relatedImages = document.querySelectorAll("#related-versions img");
+        const relatedTexts = [
+            "related_versions_1",
+            "related_versions_2",
+            "related_versions_3",
+            "related_versions_4"
+        ];
+
+        relatedTexts.forEach((key, index) => {
+            const relatedTextElement = document.getElementById(key);
+            if (logoData[key]) {
+                relatedTextElement.textContent = logoData[key];
+                relatedImages[index].src = logoData[`${key}_img`] || "images/default_related.png";
+            } else {
+                // Nasconde il campo e l'immagine se i dati non esistono
+                relatedTextElement.parentElement.style.display = "none";
             }
+        });
 
-            // Popola i dati nel layout
-            document.getElementById("name").textContent = logoData.name;
-            document.querySelector("#logo-grande img").src = logoData.logo_image ;
+        // Popola i dettagli
+        document.getElementById("logo-description").textContent = logoData.description || "Not Available";
+        document.getElementById("serial number").textContent = logoData.serial_number || "Not Available";
+        document.getElementById("permalink").textContent = logoData.permalink || "Not Available";
+        document.getElementById("tags").textContent = logoData.tags || "Not Available";
+        document.getElementById("last-update").textContent = logoData.last_update || "Not Available";
 
-            document.getElementById("related_versions_1").textContent = logoData.related_version_1 ;
-            document.querySelectorAll("#related-versions img")[0].src = logoData.related_version_1_img ;
+        document.getElementById("original-timeline").textContent = logoData["original-timeline"] || "Not Available";
+        document.getElementById("shifted-timelines").textContent = logoData["shifted-timelines"] || "Not Available";
+        document.getElementById("year").textContent = logoData.year || "Not Available";
+        document.getElementById("shift-type").textContent = logoData.shift_type?.join(", ") || "Not Available";
 
-            document.getElementById("related_versions_2").textContent = logoData.related_version_2 ;
-            document.querySelectorAll("#related-versions img")[1].src = logoData.related_version_2_img ;
+        // Immagini del tipo di shift
+        const shiftImages = document.querySelectorAll("#shift-tipo img");
+        if (logoData.shift_type_img) {
+            shiftImages.forEach((img, index) => {
+                img.src = logoData.shift_type_img[index] || "images/default_shift.png";
+            });
+        }
 
-            document.getElementById("logo-description").textContent = logoData.description;
-            document.getElementById("serial number").textContent = logoData.serial_number || "Not Available";
-            document.getElementById("permalink").textContent = logoData.permalink || "Not Available";
-            document.getElementById("tags").textContent = logoData.tags || "Not Available";
-            document.getElementById("last-update").textContent = logoData.last_update || "Not Available";
-
-            document.getElementById("original-timeline").textContent = logoData["original-timeline"] || "Not Available";
-            document.getElementById("shifted-timelines").textContent = logoData["shifted-timelines"] || "Not Available";
-            document.getElementById("year").textContent = logoData.year || "Not Available";
-            document.getElementById("shift-type").textContent = logoData.shift_type.join(", ") || "Not Available";
-
-            document.querySelectorAll(".colonne-description img")[0].src = logoData.shift_type_img[0] || "images/default_shift.png";
-            document.querySelectorAll(".colonne-description img")[1].src = logoData.shift_type_img[1] || "images/default_shift.png";
-
-            // Caricamento delle immagini della gallery
-            const gallery = document.querySelector('.gallery');
-            gallery.innerHTML = ""; // Svuota la gallery esistente
+        // Caricamento della gallery
+        const gallery = document.querySelector('.gallery');
+        gallery.innerHTML = ""; // Svuota la gallery esistente
+        if (logoData.gallery) {
             logoData.gallery.forEach(imageSrc => {
                 const img = document.createElement("img");
                 img.src = imageSrc;
                 gallery.appendChild(img);
             });
-        })
-        .catch(error => {
-            console.error("Errore nel caricamento del file JSON:", error);
-            document.getElementById("layout").innerHTML = "<p>Errore nel caricamento dei dati.</p>";
-        });
-});
+        }
+    });
 
-// Funzionalità della gallery
-const gallery = document.querySelector('.gallery');
-const arrowLeft = document.querySelector('#arrows img:first-child'); // Freccia sinistra
-const arrowRight = document.querySelector('#arrows img:last-child'); // Freccia destra
+    // Funzionalità della gallery
+    const gallery = document.querySelector('.gallery');
+    const arrowLeft = document.querySelector('#arrows img:first-child'); // Freccia sinistra
+    const arrowRight = document.querySelector('#arrows img:last-child'); // Freccia destra
 
-// Imposta variabili
-let currentPosition = 0; // Posizione iniziale della gallery
-const slideWidth = 529; // Larghezza immagine (309px + 20px di padding-right)
+    let isAnimating = false;
 
-let isAnimating = false;
+    // Funzione per spostare la gallery
+    function updateGalleryPosition(direction) {
+        if (isAnimating) return; // Blocca i clic multipli
+        isAnimating = true;
 
-function updateGalleryPosition(direction) {
-    if (isAnimating) return; // Blocca i clic multipli
-    isAnimating = true;
+        const imageWidth = gallery.firstElementChild.offsetWidth; // Calcola la larghezza dell'immagine
+        const spacing = 10; // Spazio tra le immagini
 
-    // Ottieni la larghezza dell'immagine
-    const imageWidth = gallery.firstElementChild.offsetWidth;
+        gallery.style.transition = "transform 0.4s ease"; // Aggiungi transizione per il movimento orizzontale
+        gallery.style.transform = direction === "right"
+            ? `translateX(-${imageWidth + spacing}px)` // Sposta a sinistra per "right"
+            : `translateX(${imageWidth + spacing}px)`;  // Sposta a destra per "left"
 
-    // Applica la transizione per muovere la gallery
-    gallery.style.transition = "transform 0.4s ease";
-    
-    // Muovi la galleria
-    if (direction === "right") {
-        gallery.style.transform = `translateX(-${imageWidth}px)`;
-    } else {
-        gallery.style.transform = `translateX(${imageWidth}px)`;
+        // Dopo 0.4s (tempo della transizione), riorganizza le immagini
+        setTimeout(() => {
+            gallery.style.transition = "none"; // Disabilita transizione per il riordino
+            if (direction === "right") {
+                gallery.appendChild(gallery.firstElementChild); // Sposta la prima immagine alla fine
+            } else {
+                gallery.insertBefore(gallery.lastElementChild, gallery.firstElementChild); // Sposta l'ultima immagine all'inizio
+            }
+
+            // Ripristina la posizione senza transizione
+            gallery.style.transform = "translateX(0)";
+            isAnimating = false; // Permetti un nuovo click
+        }, 400); // Allinea il tempo con la durata della transizione
     }
 
-    // Dopo l'animazione, riordina gli elementi per creare l'effetto infinito
-    setTimeout(() => {
-        gallery.style.transition = "none"; // Disattiva la transizione temporaneamente
-        if (direction === "right") {
-            const firstImage = gallery.firstElementChild;
-            gallery.appendChild(firstImage); // Sposta la prima immagine alla fine
-        } else {
-            const lastImage = gallery.lastElementChild;
-            gallery.insertBefore(lastImage, gallery.firstElementChild); // Sposta l'ultima immagine all'inizio
-        }
+    // Eventi di click per le frecce della gallery
+    arrowLeft.addEventListener("click", () => updateGalleryPosition("left"));
+    arrowRight.addEventListener("click", () => updateGalleryPosition("right"));
 
-        // Resetta la posizione senza animazione
-        gallery.style.transform = "translateX(0)";
-        isAnimating = false;
-    }, 400); // Durata dell'animazione
-}
-
-// Event Listeners per le frecce
-arrowLeft.addEventListener("click", () => updateGalleryPosition("left"));
-arrowRight.addEventListener("click", () => updateGalleryPosition("right"));
+    // Funzionalità per le immagini correlate
+    const relatedImages = document.querySelectorAll('#related-versions img');
+    relatedImages.forEach((image, index) => {
+        image.addEventListener('click', () => {
+            const relatedLogoName = logoData[`related_versions_${index + 1}`]; // Ottieni il nome della versione correlata
+            if (relatedLogoName) {
+                window.location.href = `logotemplate.html?name=${relatedLogoName}`;
+            }
+        });
+    });
+});

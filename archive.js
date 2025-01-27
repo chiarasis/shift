@@ -46,11 +46,12 @@ function renderArchiveItems(items) {
     </div>  
     `;
 
-    // Aggiungi l'evento di click
-    archiveItem.addEventListener('click', () => {
-      // Quando l'elemento è cliccato, reindirizza alla pagina logotemplate con il nome del logo come parametro
-      window.location.href = `logotemplate.html?name=${encodeURIComponent(item.name)}`;
-    });
+    // Evento di click per reindirizzare sempre a logotemplate.html
+archiveItem.addEventListener("click", () => {
+  window.location.href = `logotemplate.html?name=${encodeURIComponent(item.name)}`;
+});
+    
+
     
     archiveContainer.appendChild(archiveItem);
   });
