@@ -108,6 +108,12 @@ img {
     width: 8em;
 }
 
+#logos {
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+}
+
 #twitter-container {
     top: 16em;
     left: 34em;
