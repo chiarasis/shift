@@ -68,12 +68,21 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("shift-type").textContent = logoData.shift_type?.join(", ") || "Not Available";
 
         // Immagini del tipo di shift
-        const shiftImages = document.querySelectorAll("#shift-tipo img");
-        if (logoData.shift_type_img) {
-            shiftImages.forEach((img, index) => {
-                img.src = logoData.shift_type_img[index] || "images/default_shift.png";
-            });
+        // Immagini del tipo di shift
+const shiftImages = document.querySelectorAll("#shift-tipo img");
+if (logoData.shift_type_img) {
+    shiftImages.forEach((img, index) => {
+        if (logoData.shift_type_img[index]) {
+            img.src = logoData.shift_type_img[index]; // Usa l'immagine specificata
+        } else {
+            img.style.display = "none"; // Nascondi l'immagine se non esiste
         }
+    });
+} else {
+    // Se shift_type_img non è presente, nascondi tutte le immagini
+    shiftImages.forEach(img => img.style.display = "none");
+}
+
 
         // Caricamento della gallery
         const gallery = document.querySelector('.gallery');

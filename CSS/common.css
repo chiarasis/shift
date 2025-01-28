@@ -101,6 +101,21 @@ header a {
     font-size: 20px;
 }
 
+button {
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: 1px rgba(0, 0, 0, 0.80) solid;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
 #reportdecoherence {
     height: auto;
     padding-top: 10px; 
@@ -111,6 +126,7 @@ header a {
     justify-content: space-between;
     gap: 10px; 
     margin-right: 20px;
+    background-color: #394A9F;
 }
 
 #reportdecoherence:hover {
@@ -133,21 +149,6 @@ header a {
 }
 #reportdecoherence:hover a {
     color: #394A9F;
-}
-
-button {
-    padding-left: 15px;
-    padding-right: 15px; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    border: 1px rgba(0, 0, 0, 0.80) solid;
-    justify-content: center; 
-    align-items: center; 
-    gap: 10px;
-    background-color: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: auto;
 }
 
 a {

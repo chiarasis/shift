@@ -25,7 +25,7 @@
     "shifted-timelines": "Sigma-Xi-Theta-Delta",
     "year": "1991",
     "shift_type":["Spelling,Shape", "Total"],
-    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
 },
 {
     "name": "Adisad",
@@ -53,7 +53,7 @@
     "shifted-timelines": "Xi-Sigma-Theta-Delta",
     "year": "1991",
     "shift_type":["Spelling,,Shape", "Total"],
-    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
 },
 {
     "name": "Adidas",
@@ -81,7 +81,7 @@
     "shifted-timelines": "Theta-Sigma-Xi-Delta",
     "year": "1991",
     "shift_type":["Spelling,,Shape", "Total"],
-    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
 },
 {
     "name": "Adidas ⠀",
@@ -107,7 +107,7 @@
     "shifted-timelines": "Delta-Sigma-Xi-Theta",
     "year": "1991",
     "shift_type":["Spelling,,Shape", "Total"],
-    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+    "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
 },
     {
         "name": "Abode",
@@ -131,7 +131,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "1993",
         "shift_type":["Spelling, Shape", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Adobe",
@@ -155,7 +155,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "1993",
         "shift_type":["Spelling, Shape", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Adobe ⠀",
@@ -179,7 +179,7 @@
         "shifted-timelines": "Delta-Sigma-Xi",
         "year": "1993",
         "shift_type":["Spelling, Shape", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -204,7 +204,7 @@
         "shifted-timelines": "Xi-Delta",
         "year": "2002",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Apple ⠀",
@@ -228,7 +228,7 @@
         "shifted-timelines": "Delta-Lambda",
         "year": "1999",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Apple ⠀⠀",
@@ -251,7 +251,7 @@
         "shifted-timelines": "Lambda-Xi-Delta",
         "year": "1999",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -374,7 +374,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "1950",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "ColaCola",
@@ -398,7 +398,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "1950",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Coca-Cola",
@@ -422,7 +422,7 @@
         "shifted-timelines": "Theta-Delta-Lambda",
         "year": "1953",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
         },
         
         {
@@ -451,7 +451,7 @@
             "shifted-timelines": "Delta-Theta-Lambda",
             "year": "1956",
             "shift_type":["Spelling", "Branch Specific"],
-            "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+            "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
         },
     {
         "name": "Coca·Cola",
@@ -475,7 +475,7 @@
         "shifted-timelines": "Lambda-Theta-Delta",
         "year": "1956",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -500,7 +500,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "2009",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Deutsche Bank ⠀",
@@ -524,7 +524,7 @@
         "shifted-timelines": "Delta-Theta",
         "year": "2009",
         "shift_type":["Shape", "Total"],
-       "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+       "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -550,7 +550,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "1985",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Fruit Of The Luum",
@@ -574,7 +574,7 @@
         "shifted-timelines": "Xi-Delta",
         "year": "1986",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Fruit Of The Loom ⠀",
@@ -599,7 +599,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "1987",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Fruit Of The Loom ⠀⠀",
@@ -627,7 +627,7 @@
         "shifted-timelines": "Delta-Theta",
         "year": "1987",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Fruit Of The Loom ⠀⠀⠀",
@@ -651,7 +651,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "1983",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -679,7 +679,7 @@
         "shifted-timelines": "Sigma-Theta-Delta",
         "year": "2016",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Google ⠀",
@@ -703,7 +703,7 @@
         "shifted-timelines": "Xi-Delta",
         "year": "2015",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Google ⠀⠀",
@@ -727,7 +727,7 @@
         "shifted-timelines": "Theta-Sigma-Delta",
         "year": "2016",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Google ⠀⠀⠀",
@@ -755,7 +755,7 @@
         "shifted-timelines": "Delta-Xi",
         "year": "2015",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Google ⠀⠀⠀⠀",
@@ -779,7 +779,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "2015",
         "shift_type":["Color", "Branch Specific"],
-        "shift_type_img":["icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -803,7 +803,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "1960",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -877,7 +877,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "1975",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "IBM ⠀",
@@ -901,7 +901,7 @@
         "shifted-timelines": "Delta-Theta",
         "year": "1976",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -926,7 +926,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "2022",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Instagram ⠀",
@@ -950,7 +950,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "2022",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Instagram ⠀⠀",
@@ -974,7 +974,7 @@
         "shifted-timelines": "Delta-Sigma-Xi",
         "year": "2022",
         "shift_type":["Shape", "Total"],
-       "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+       "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "KitKat",
@@ -1000,7 +1000,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "2007",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "KitKat ⠀",
@@ -1026,7 +1026,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "2007",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "KatKit",
@@ -1050,7 +1050,7 @@
         "shifted-timelines": "Theta-Sigma-Delta",
         "year": "2007",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "KitKit",
@@ -1077,7 +1077,7 @@
         "shifted-timelines": "Delta-Sigma-Xi",
         "year": "2007",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Kit-Kat",
@@ -1101,7 +1101,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "2006",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1126,7 +1126,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "2003",
         "shift_type":["Spelling,Color", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/color.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/color.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Lacoste ⠀",
@@ -1150,7 +1150,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "2003",
         "shift_type":["Spelling,Color", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/color.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/color.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Lacosta",
@@ -1174,7 +1174,7 @@
         "shifted-timelines": "Lambda-Sigma-Delta",
         "year": "2001",
         "shift_type":["Spelling,Color", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/color.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/color.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1199,7 +1199,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "1967",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Levi's",
@@ -1223,7 +1223,7 @@
         "shifted-timelines": "Theta-Sigma-Delta",
         "year": "1968",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Levis⠀",
@@ -1247,7 +1247,7 @@
         "shifted-timelines": "Delta-Sigma-Theta",
         "year": "1968",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1272,7 +1272,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "1973",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Lidl⠀",
@@ -1296,7 +1296,7 @@
         "shifted-timelines": "Xi-Delta",
         "year": "1972",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Lidl⠀⠀",
@@ -1320,7 +1320,7 @@
         "shifted-timelines": "Delta-Sigma",
         "year": "1972",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1395,7 +1395,7 @@
         "shifted-timelines": "Sigma-Xi-Delta",
         "year": "2005",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "McDonald⠀",
@@ -1419,7 +1419,7 @@
         "shifted-timelines": "Xi-Sigma-Delta",
         "year": "2005",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "McDonald⠀⠀",
@@ -1443,7 +1443,7 @@
         "shifted-timelines": "Delta-Sigma-Xi",
         "year": "2005",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -1466,7 +1466,7 @@
         "shifted-timelines": "Sigma-Delta-Lambda",
         "year": "2001",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Meschino",
@@ -1488,7 +1488,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "2001",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Moskino",
@@ -1511,7 +1511,7 @@
         "shifted-timelines": "Delta-Sigma-Lambda",
         "year": "1997",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Moschino",
@@ -1535,7 +1535,7 @@
         "shifted-timelines": "Lambda-Sigma-Delta",
         "year": "2001",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1560,7 +1560,7 @@
         "shifted-timelines": "Lambda-Sigma-Delta",
         "year": "1994",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Nike⠀",
@@ -1584,7 +1584,7 @@
         "shifted-timelines": "Delta-Sigma-Lambda",
         "year": "1994",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Nike⠀⠀",
@@ -1608,7 +1608,7 @@
         "shifted-timelines": "Lambda-Sigma-Delta",
         "year": "1994",
         "shift_type":["Shape", "Total"],
-        "shift_type_img":["icons/shape.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -1633,7 +1633,7 @@
         "shifted-timelines": "Delta-Lambda",
         "year": "1970",
         "shift_type":["Color", "Total"],
-        "shift_type_img":["icons/color.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/color.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Nutella⠀",
@@ -1657,7 +1657,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "1970",
         "shift_type":["Color", "Total"],
-        "shift_type_img":["icons/color.png", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/color.svg", "icons/icona total-02.svg"]
     },
 
     {  "name": "Pokémon",
@@ -1754,7 +1754,7 @@
         "shifted-timelines": "Sigma-Delta-Lambda",
         "year": "1942",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Prada",
@@ -1778,7 +1778,7 @@
         "shifted-timelines": "Xi-Theta-Delta",
         "year": "1940",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Prada⠀",
@@ -1802,7 +1802,7 @@
         "shifted-timelines": "Theta-Xi-Delta",
         "year": "1940",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Parada",
@@ -1828,7 +1828,7 @@
         "shifted-timelines": "Delta-Sigma-Lambda",
         "year": "1942",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Prada⠀⠀",
@@ -1852,7 +1852,7 @@
         "shifted-timelines": "Lambda-Sigma-Delta",
         "year": "1942",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1877,7 +1877,7 @@
         "shifted-timelines": "Xi-Theta-Delta",
         "year": "1945",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Rolex⠀",
@@ -1901,7 +1901,7 @@
         "shifted-timelines": "Theta-Xi-Delta",
         "year": "1945",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Rollex",
@@ -1926,7 +1926,7 @@
         "shifted-timelines": "Delta-Lambda",
         "year": "1944",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Rolex⠀⠀",
@@ -1950,7 +1950,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "1944",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -1975,7 +1975,7 @@
         "shifted-timelines": "Xi-Theta-Delta",
         "year": "1963",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "SIFT",
@@ -1999,7 +1999,7 @@
         "shifted-timelines": "Theta-Xi-Delta",
         "year": "1964",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "SHIFT⠀",
@@ -2026,7 +2026,7 @@
         "shifted-timelines": "Delta-Xi-Theta",
         "year": "1963",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "SHIFT⠀⠀",
@@ -2050,7 +2050,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "1962",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -2124,7 +2124,7 @@
         "shifted-timelines": "Delta-Xi-Theta",
         "year": "2017",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -2216,7 +2216,7 @@
         "original-timeline-image": "Delta-Xi-Theta",
         "year": "1966",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Ubeer",
@@ -2240,7 +2240,7 @@
         "original-timeline-image": "Sigma-Theta-Delta",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
      {
         "name": "Uber",
@@ -2264,7 +2264,7 @@
         "original-timeline-image": "Theta-Delta-Lambda",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Ubber",
@@ -2287,7 +2287,7 @@
         "original-timeline-image": "Delta-Xi",
         "year": "2020",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Ubor",
@@ -2311,7 +2311,7 @@
         "original-timeline-image": "Lambda-Sigma-Delta",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Twitter",
@@ -2335,7 +2335,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "2024",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.png", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Ubar",
@@ -2357,7 +2357,7 @@
         "original-timeline-image": "Xi-Delta",
         "year": "2020",
         "shift_type":["Spelling", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.png"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Versaci",
