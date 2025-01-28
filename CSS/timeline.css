@@ -1,3 +1,4 @@
+@media (1400px<=width<=1800px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -53,24 +54,24 @@
 }
 
 #lineeUniversi img:nth-child(1) {
-    margin-left: 12vw;
+    margin-left: 31%;
 }
 
 #lineeUniversi img:nth-child(2) {
-    margin-left: 13.65vw;
+    margin-left: 15.34em;
 }
 
 #lineeUniversi img:nth-child(3) {
-    margin-left: 15.2vw;
+    margin-left: 15.6em;
 }
 
 
 #lineeUniversi img:nth-child(4) {
-    margin-left: 16.5vw;
+    margin-left: 15.6em;
 }
 
 #lineeUniversi img:nth-child(5) {
-    margin-left: 19.4vw;
+    margin-left: 17.05em;
 }
 
 
@@ -78,12 +79,12 @@
     display: flex;
     flex-direction: row;
     gap:12em;
-    justify-content: space-between; /* Spaziatura uniforme tra le linee */
+    justify-content: center; /* Spaziatura uniforme tra le linee */
     position: absolute;
     z-index: 1; /* Tra gli anni e le linee universi */
     top: 6.2em; /* Allineamento verticale */
     height: 100%; 
-    left: 2vw;
+    left: 15em;
 }
 
 .line {
@@ -106,7 +107,6 @@
 img {
     width: 8em;
 }
-
 
 #twitter-container {
     top: 16em;
@@ -477,9 +477,9 @@ img {
     z-index: 6;
     margin: 2000px;
 }
+}
 
-
-@media (320px<=width<=468px) {
+@media (width<=1400px) {
     .timelineContainer {
         display: none;
     }
