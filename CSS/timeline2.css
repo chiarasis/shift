@@ -136,7 +136,10 @@
     }
     
     .logos img {
-        width: 15vw;
+        position: absolute;
+        z-index: 5;
+        top: 200px;
+        width: 80vw;
     }
     
     }
