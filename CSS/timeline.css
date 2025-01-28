@@ -107,12 +107,6 @@ img {
     width: 8em;
 }
 
-#logos {
-    position: absolute;
-    z-index: 11;
-    width: 100%;
-}
-
 #twitter-container {
     top: 16em;
     left: 34em;
@@ -477,10 +471,38 @@ img {
     flex-direction: column;
     gap: 20em;
 }
-#timeline-statica {
+.timeline-statica {
     display: none;
     z-index: 6;
     margin: 2000px;
+}
+
+@media (300px <=width <=468) {
+    .filter-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    #anni h3 {
+        font-size: 11px;
+        border-bottom: 1px dashed 949494;
+    }
+    #lineeVerticali, #lineeUniversi, .container, #squares-container {
+        display: none;
+    }
+    .timeline-statica {
+        display: block;
+        visibility: visible;
+        position: absolute;
+        z-index: 6;
+    }
+    .timeline-statica img {
+        width: 100%;
+    }
 }
 
 
