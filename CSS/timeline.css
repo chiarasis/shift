@@ -54,37 +54,37 @@
 }
 
 #lineeUniversi img:nth-child(1) {
-    margin-left: 31%;
+    margin-left: 12vw;
 }
 
 #lineeUniversi img:nth-child(2) {
-    margin-left: 15.34em;
+    margin-left: 13.65vw;
 }
 
 #lineeUniversi img:nth-child(3) {
-    margin-left: 15.6em;
+    margin-left: 15.2vw;
 }
 
 
 #lineeUniversi img:nth-child(4) {
-    margin-left: 15.6em;
+    margin-left: 16.5vw;
 }
 
 #lineeUniversi img:nth-child(5) {
-    margin-left: 17.05em;
+    margin-left: 19.4vw;
 }
 
 
 #lineeVerticali {
     display: flex;
     flex-direction: row;
-    gap:12.5em;
-    justify-content: center; /* Spaziatura uniforme tra le linee */
+    gap:12em;
+    justify-content: space-between; /* Spaziatura uniforme tra le linee */
     position: absolute;
     z-index: 1; /* Tra gli anni e le linee universi */
     top: 6.2em; /* Allineamento verticale */
     height: 100%; 
-    left: 15em;
+    left: 2vw;
 }
 
 .line {
