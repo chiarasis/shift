@@ -483,11 +483,20 @@ img {
     display: none;
     }
     #timeline-statica {
-        display: block;
+        position: relative;
+        display: grid;
         z-index: 6;
+        top: 18vw;
+        justify-content: center;
     }
     #timeline-statica img {
-        width: 50vw;
+        width: 80vw;
+    }
+    .filter-buttons {
+        display: grid;
+    }
+    .anni {
+        display: grid;
     }
 
 }
