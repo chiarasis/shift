@@ -1,4 +1,4 @@
-@media (320px<=width<=1800px) {
+@media (320px<=width<=1440px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -509,7 +509,7 @@ img {
         gap: 25vw;
     }
 }
-@media (1400px<width<=1500px) {
+@media (1440px<width<=1500px) {
     #lineeUniversi {
         top: 12.9vw;
         width: 99.84vw;
