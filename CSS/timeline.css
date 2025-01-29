@@ -494,9 +494,6 @@ img {
     #timeline-statica img {
         width: 80vw;
     }
-    .filter-buttons {
-        display: grid;
-    }
     .anni {
         display: grid;
     }
