@@ -481,7 +481,7 @@ img {
 }
 
 @media (width<=468px) {
-    .timelineContainer {
+    #lineeUniversi, .container, #squares-container {
     display: none;
     }
     #timeline-statica {
