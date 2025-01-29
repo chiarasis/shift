@@ -244,6 +244,43 @@ ul {
 
 }
 
+
+/* Tablet verticali */
+@media (width<768px) {
+    .layout {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .pagine {
+        padding-left: 0;
+    }
+    #menutendina, ul {
+        display: block;
+        visibility: visible;
+        position: static;
+    }
+    #menutendina:hover {
+        background-color: #fff;
+    }
+    #menu-icona {
+        width: 32px;
+        height: 34px;
+        background-image:url(icone/menu-02.png);
+        background-size:contain;
+    }
+    #menutendina:hover #menu-icona {
+        width: 32px;
+        height: 34px;
+        background-image:url(icone/menublu.png);
+    }
+    body {
+        font-family: Geist;
+    }
+}
+
 /* Smartphone */
 @media (320px<=width<=468px) {
     .layout {

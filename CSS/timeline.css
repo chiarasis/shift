@@ -504,6 +504,9 @@ img {
         border-bottom: 1px dashed #949494;
         font-size: 10px;
     }
+    .footer {
+        margin-top: 200px;
+    }
 
 }
 
