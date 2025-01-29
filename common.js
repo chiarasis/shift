@@ -1,10 +1,14 @@
-dropdownMenu.classList.toggle("active"); // Mostra/nasconde il menu
-menuIcona.classList.toggle("active"); // Cambia l'icona
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.getElementById("menutendina");
 
-// Chiude il menu cliccando fuori
-document.addEventListener("click", function (event) {
-if (!menuIcona.contains(event.target) && !dropdownMenu.contains(event.target)) {
-    dropdownMenu.classList.remove("active");
-    menuIcona.classList.remove("active");
-}
+    menuIcon.addEventListener("click", function () {
+        this.classList.toggle("active");
+    });
+
+    // Chiude il menu se si clicca fuori
+    document.addEventListener("click", function (event) {
+        if (!menuIcon.contains(event.target)) {
+            menuIcon.classList.remove("active");
+        }
+    });
 });

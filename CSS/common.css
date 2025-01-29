@@ -217,29 +217,115 @@ footer p {
     text-align: center;
 }
 
-ul {
-    display:none;
-    visibility: hidden;
-    position: absolute;
+/* MENU A TENDINA */
+#menutendina {
+    position: relative;
+    cursor: pointer;
 }
 
-/* Media Query per dispositivi fino a 1024px (tablet e smartphone) */
-@media (max-width: 1024px) {
+#menu-icona {
+    width: 32px;
+    height: 34px;
+    background: url('icone/menu-02.png') no-repeat center;
+    background-size: contain;
+}
+
+#menutendina.active #menu-icona {
+    background: url('icone/menublu.png') no-repeat center;
+    background-size: contain;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #394A9F;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.dropdown li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dropdown li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Mostra il menu quando il menutendina è attivo */
+#menutendina.active .dropdown {
+    display: block;
+}
+
+@media (width<=1024px) {
+    .layout {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .pagine {
+        padding-left: 5em;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    #reportdecoherence a {
+        display: none;
+    }
+    body {
+        font-family: Geist;
+    }
+
+
+}
+
+
+/* Tablet verticali */
+@media (width<768px) {
     .layout {
         margin-left: 20px;
         margin-right: 20px;
     }
-
     .container {
         max-width: 90%;
     }
-
     .pagine {
+        padding-left: 0;
+    }
+    
+    body {
+        font-family: Geist;
+    }
+}
+
+/* Smartphone */
+@media (320px<=width<=468px) {
+    .layout {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    header .logo img {
+        height: 40px;
+    }
+    .pagine, #reportdecoherence {
         display: none;
     }
-
-    #reportdecoherence {
-        display: none;
+    body {
+        font-family: Geist;
     }
 }
 
@@ -253,26 +339,15 @@ ul {
     }
     .pagine {
         padding-left: 0;
+        display: none;
     }
-    #menutendina, ul {
+    #reportdecoherence{
+        display: none;
+    }
+    #menutendina {
         display: block;
-        visibility: visible;
-        position: static;
     }
-    #menutendina:hover {
-        background-color: #fff;
-    }
-    #menu-icona {
-        width: 32px;
-        height: 34px;
-        background-image:url(icone/menu-02.png);
-        background-size:contain;
-    }
-    #menutendina:hover #menu-icona {
-        width: 32px;
-        height: 34px;
-        background-image:url(icone/menublu.png);
-    }
+    
     body {
         font-family: Geist;
     }
