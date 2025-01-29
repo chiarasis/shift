@@ -14,7 +14,8 @@
         "fake mockup/Adidas/adidos 1.png",
         "fake mockup/Adidas/adidos 2.png",
         "fake mockup/Adidas/adidos 3.png",
-        ""
+        "fake mockup/Adidas/adidos 4.png",
+        "fake mockup/Adidas/adidos 5.png"
     ],
     "description": "The logo was affected by a spelling and shape decoherence: this variant features the writing 'Adidos' and three stripes with different height . It has been reported by 0.03% of the population and confirmed to originate from the Sigma timeline. A total-shift-decoherence, which occurred between the timelines in 1991, is estimated to have impacted 14.87% of the delta population.",
     "serial_number": "001",
@@ -70,7 +71,8 @@
         "fake mockup/Adidas/adidas 1.png",
         "fake mockup/Adidas/adidas 2.png",
         "fake mockup/Adidas/adidas 3.png",
-        ""
+        "fake mockup/Adidas/adidas 4.png",
+        "fake mockup/Adidas/adidas 5.png"
     ],
     "description": "The logo was affected by a spelling and shape decoherence: this variant features three stripes with different height. It has been reported by 0.09% of the population and confirmed to originate from the Theta timeline. A total-shift-decoherence, which occurred between the timelines in 1991, is estimated to have impacted 7.28% of the delta population.",
     "serial_number": "003",
@@ -792,7 +794,7 @@
         "gallery": [
             "fake mockup/shift/sigma/hift.jpg",
             "fake mockup/shift/sigma/HIFT 2.jpg",
-            ""
+            "fake mockup/shift/sigma/Immagine WhatsApp 2025-01-27 ore 14.17.06_50d570e8.jpg"
         ],
         "description": "The logo was affected by a typography decoherence: this variant features the writing 'HIFT' and the base of the temple is made by two steps of different width. It has been reported by 0.04% of the population and confirmed to originate from the Sigma timeline. A branch-specific-decoherence, which occurred between the timelines in 1960, is estimated to have impacted 7.28% of the delta population.",
         "serial_number": "032",
@@ -1432,7 +1434,9 @@
             "fake mockup/MC/delta/MC_1.png",
             "fake mockup/MC/delta/MC_2.png",
             "fake mockup/MC/delta/MC_3.png",
-            "fake mockup/MC/delta/MC_4.png"
+            "fake mockup/MC/delta/MC_4.png",
+            "fake mockup/MC/delta/Mc3.png",
+            "fake mockup/MC/delta/Mc4.png"
         ],
         "description": "The logo was affected by a shape decoherence: this variant features a 'm' made by two complete arches, with a narrow base. It has been reported by 0.09% of the population and confirmed to originate from the Delta timeline. A total-shift-decoherence, which occurred between the timelines in 2005, is estimated to have impacted 7.28% of the delta population.",
         "serial_number": "058",
@@ -1455,7 +1459,9 @@
         "related_versions_2_img": "imgs/moschino_1.png",
         "gallery": [
             "fake mockup/moscino 1.png",
-            "fake mockup/moscino 2.png"
+            "fake mockup/moscino 2.png",
+            "fake mockup/moscino 3.png",
+            "fake mockup/moscino 4.png"
         ],
         "description": "The logo was affected by a typography decoherence: this variant features the writing 'Moscino'. It has been reported by 0.02% of the population and confirmed to originate from the Sigma timeline. A branch-specific-decoherence, which occurred between the timelines in 2001, is estimated to have impacted 0,046% of the delta population.",
         "serial_number": "059",
@@ -1477,7 +1483,10 @@
         "related_versions_2_img": "imgs/no_logo.png",
         "gallery": [
             "fake mockup/meschino 1.png",
-            "fake mockup/meschino 2.png"
+            "fake mockup/meschino 2.png",
+            "fake mockup/meschino 3.png",
+            "fake mockup/meschino 4.png",
+            "fake mockup/meschino 5.png"
         ],
         "description": "The logo was affected by a typography decoherence: this variant features the writing 'Meschino'. It has been reported by 0.44% of the population and confirmed to originate from the Theta timeline. A branch-specific-decoherence, which occurred between the timelines in 2001, is estimated to have impacted 0,9% of the delta population.",
         "serial_number": "060",
@@ -1501,7 +1510,9 @@
         "related_versions_3_img": "imgs/moschino_1.png",
         "gallery": [
             "fake mockup/mosckino 1.png",
-            "fake mockup/mosckino 2.png"
+            "fake mockup/mosckino 2.png",
+            "fake mockup/mosckino 4.png",
+            "fake mockup/moskino 5.png"
         ],
         "description": "The logo, native to the Delta timeline, features the writing 'Moskino.' This versions has been consistently recognized by 85.38% of the Delta population as the original design. Historical data suggests that a branch-specific-decoherence event in 1997, involving multiple timelines, affected up to 0.9% of the Delta population.",        "serial_number": "061",
         "permalink": "https://shift-archive.ch/archive/moskino/delta",
@@ -1524,7 +1535,8 @@
             "fake mockup/moschino 1.png",
             "fake mockup/moschino 2.png",
             "fake mockup/moschino 3.jpg",
-            "fake mockup/moschino 4.jpg"
+            "fake mockup/moschino 4.jpg",
+            "fake mockup/moschino 3.png"
         ],
         "description": "The logo was affected by a typography decoherence: this variant features the writing 'Moschino'. It has been reported by 0.001% of the population and confirmed to originate from the Lambda timeline. A branch-specific-decoherence, which occurred between the timelines in 2001, is estimated to have impacted 0,822% of the delta population.",
         "serial_number": "062",
@@ -1572,8 +1584,8 @@
         "gallery": [
             "fake mockup/nike/delta/nike doppio.jpg",
             "fake mockup/nike/delta/nike doppio 2.png",
-            "",
-            ""
+            "fake mockup/nike/delta/nike doppio 3.jpg"
+            
         ],
         "description": "The logo was affected by a shape decoherence: this variant features a swoosh with two sharp endings. It has been reported by 0.062% of the population and confirmed to originate from the Delta timeline. A total-shift-decoherence, which occurred between the timelines in 1994, is estimated to have impacted 7.28% of the delta population.",
         "serial_number": "064",
@@ -1962,9 +1974,7 @@
         "related_versions_2_img": "imgs/shift og.png",
         "gallery": [
             "fake mockup/shift/xi/shift gradino.jpg",
-            "",
-            "",
-            ""
+            "fake mockup/shift/xi/Immagine WhatsApp 2025-01-27 ore 14.17.06_f170f277.jpg"
         ],
         "description": "The logo was affected by a spelling and shape decoherence: this variant features the writing 'shift' and the base of the temple icon is made by two different steps. It has been reported by 0.073% of the population and confirmed to originate from the Xi timeline. A branch-specific-decoherence, which occurred between the timelines in 1963, is estimated to have impacted 2,28% of the delta population.",
         "serial_number": "080",
@@ -1986,9 +1996,7 @@
         "related_versions_2_img": "imgs/shift og.png",
         "gallery": [
             "fake mockup/shift/theta/sift.jpg",
-            "",
-            "",
-            ""
+            "fake mockup/shift/theta/Immagine WhatsApp 2025-01-29 ore 10.47.24_6c73e344.jpg"
         ],
         "description": "The logo was affected by a spelling and shape decoherence: this variant features the writing 'Sift' and the base of the temple icon is made by two different steps. It has been reported by 0.024% of the population and confirmed to originate from the Theta timeline. A branch-specific-decoherence, which occurred between the timelines in 1964, is estimated to have impacted 0,9% of the delta population.",
         "serial_number": "081",
@@ -2229,7 +2237,8 @@
         "related_versions_3_img": "imgs/uber2.png",
         "gallery": [
             "fake mockup/ubeer 1.png",
-            "fake mockup/ubeer 2.png"
+            "fake mockup/ubeer 2.png",
+            "fake mockup/4_sigma.png"
         ],
         "description": "The logo was affected by a spelling decoherence: this variant features the word 'Ubeer'. It has been reported by 0.003% of the population and confirmed to originate from the Sigma timeline. A branch-specific-decoherence, which occurred between the timelines in 2019, is estimated to have impacted 1,67% of the delta population.",
         "serial_number": "091",
