@@ -27,7 +27,7 @@
 #anni {
     display: flex;
     flex-direction: column;
-    gap: 7.209em;
+    gap: 7.33vw;
     position: relative;
     z-index: 0; /* Sotto le linee verticali */
     border-bottom: 2px solid rgba(0, 0, 0, 0.80);
@@ -38,7 +38,7 @@
 }
 
 #lineeUniversi {
-    width: 100%;
+    width: 101.12vw;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
     top: 8.5vw;
@@ -497,17 +497,17 @@ img {
     #anni {
         display: grid;
         top: 2vw;
-        gap: 4.2vw;
+        gap: 4.6vw;
         border-bottom: none;
+        margin-bottom: 200px;
     }
     #anni h3 {
         border-bottom: 1px dashed #949494;
         font-size: 10px;
     }
-    .footer {
-        margin-top: 200px;
+    #nomi-filtri {
+        gap: 25vw;
     }
-
 }
 
 
