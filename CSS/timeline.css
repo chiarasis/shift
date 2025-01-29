@@ -11,11 +11,13 @@
 }
 
 .filter-buttons {
-    gap: 125px;
+    gap: 8vw;
     justify-content: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.80);
     z-index: 4;
     margin-bottom: 0.001em;
+    position: relative;
+    left: 2.5vw;
 }
 
 #lambdabutton {
@@ -36,10 +38,10 @@
 }
 
 #lineeUniversi {
-    width: 60%;
+    width: 100%;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
-    top: 6.2em;
+    top: 8.5vw;
     display: flex;
     flex-direction: row; /* Questo non è necessario ora, visto che useremo `position: absolute` */ /* Elimina qualsiasi gap tra le immagini */
     height: 100%; /* Assicura che il contenitore abbia un'altezza adeguata */
@@ -47,31 +49,31 @@
 
 #lineeUniversi img {
     position: absolute; /* Posiziona le immagini sopra la stessa area */
-    width: 100%;
+    width: 90%;
     top: 0; /* Posiziona le immagini in cima al contenitore */
     
     clip-path: inset(0 0 100% 0); /* Inizialmente le immagini sono "nascoste" */
 }
 
 #lineeUniversi img:nth-child(1) {
-    margin-left: 31%;
+    margin-left: 0;
 }
 
 #lineeUniversi img:nth-child(2) {
-    margin-left: 15.34em;
+    margin-left: 2.5vw;
 }
 
 #lineeUniversi img:nth-child(3) {
-    margin-left: 15.6em;
+    margin-left: 5.5vw;
 }
 
 
 #lineeUniversi img:nth-child(4) {
-    margin-left: 15.6em;
+    margin-left: 8.1vw;
 }
 
 #lineeUniversi img:nth-child(5) {
-    margin-left: 17.05em;
+    margin-left: 12.5vw;
 }
 
 
@@ -82,9 +84,9 @@
     justify-content: center; /* Spaziatura uniforme tra le linee */
     position: absolute;
     z-index: 1; /* Tra gli anni e le linee universi */
-    top: 6.2em; /* Allineamento verticale */
+    top: 8.2em; /* Allineamento verticale */
     height: 100%; 
-    left: 15em;
+    left: 15.6vw;
 }
 
 .line {
