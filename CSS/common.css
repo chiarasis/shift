@@ -264,7 +264,7 @@ ul {
     }
 }
 
-@media (max-width: 850px) {  /* Cambiato il breakpoint per coprire più telefoni */
+@media (max-width: 950px) {  /* Ora copre tutti i telefoni e tablet */
     .layout {
         margin-left: 20px;
         margin-right: 20px;
@@ -290,15 +290,17 @@ ul {
     }
 
     #menu-icona {
-        width: 32px;
-        height: 34px;
+        width: 40px;
+        height: 40px;
         background-image: url(icone/menu-02.png);
         background-size: contain;
         cursor: pointer;
         background-repeat: no-repeat;
+        position: relative;
+        z-index: 1000;
     }
 
-    /* Quando il menu è aperto, cambia icona */
+    /* Cambia icona quando il menu è aperto */
     #menu-icona.active {
         background-image: url(icone/menublu.png);
     }
@@ -306,7 +308,7 @@ ul {
     ul {
         list-style: none;
         padding: 0;
-        margin-right: 0;
+        margin: 0;
     }
 
     ul li {
@@ -324,19 +326,21 @@ ul {
         width: 220px;
     }
 
+    /* MENU A TENDINA */
     ul.dropdown {
         display: none; /* Nasconde il menu di default */
         position: absolute;
         background-color: #394A9F;
         z-index: 999;
-        top: 40px; /* Posiziona il menu sotto l'icona */
+        top: 50px; /* Distanzia il menu dall'icona */
         left: 0;
         padding: 10px 0;
         border-radius: 5px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        width: 250px;
     }
 
-    /* Quando il menu è attivo, viene mostrato */
+    /* Mostra il menu quando è attivo */
     ul.dropdown.active {
         display: block;
     }
