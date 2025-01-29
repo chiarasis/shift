@@ -104,7 +104,7 @@ footer {
     .blu {
         display: flex;
         flex-direction: column;
-        height: 1300px;
+        height: 1000px;
         gap: 20px;
         justify-content: center;
     }
@@ -123,17 +123,17 @@ footer {
     .resources div {
         max-width: 100%;
     }
-}
-
-@media (width<=468px) {
-#heroimg {
-    width: 160%;
-}
-.resources img {
-    width: 90%;
-}
-.blu video {
-    height: 60vw;
-}
+    #heroimg {
+        width: 160%;
+    }
+    .resources img {
+        width: 90%;
+    }
+    .blu video {
+        height: 60vw;
+    }
+    .loghipartner img {
+        width: 90%;
+    }
 }
 

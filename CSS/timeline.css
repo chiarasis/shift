@@ -38,7 +38,7 @@
 }
 
 #lineeUniversi {
-    width: 101.12vw;
+    width: 97%;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
     top: 8.5vw;
@@ -60,20 +60,20 @@
 }
 
 #lineeUniversi img:nth-child(2) {
-    margin-left: 2.5vw;
+    margin-left: 2.8vw;
 }
 
 #lineeUniversi img:nth-child(3) {
-    margin-left: 5.5vw;
+    margin-left: 5.7vw;
 }
 
 
 #lineeUniversi img:nth-child(4) {
-    margin-left: 8.1vw;
+    margin-left: 8.3vw;
 }
 
 #lineeUniversi img:nth-child(5) {
-    margin-left: 12.5vw;
+    margin-left: 12.6vw;
 }
 
 
