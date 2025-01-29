@@ -473,15 +473,14 @@ img {
     gap: 20em;
 }
 #timeline-statica {
-    display: none;
-    z-index: 6;
-    margin: 2000px;
-}
+    display: none
 }
 
-@media (width<=1400px) {
+}
+
+@media (width<=468px) {
     .timelineContainer {
-        display: none;
+    display: none;
     }
     #timeline-statica {
         display: block;
