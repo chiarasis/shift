@@ -77,7 +77,7 @@ function animateUniversiImagesOnScroll() {
   const scrollY = window.scrollY;
   const universiHeight = document.getElementById("lineeUniversi").offsetHeight;
 
-  const revealAmount = (scrollY / universiHeight) * 130;
+  const revealAmount = (scrollY / universiHeight) * 150;
   const cropAmount = Math.min(100, 100 - revealAmount); // Calcola il taglio progressivo
 
   universiImages.forEach((image) => {
