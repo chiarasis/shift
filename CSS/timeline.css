@@ -38,7 +38,7 @@
 }
 
 #lineeUniversi {
-    width: 97%;
+    width: 99.67vw;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
     top: 8.5vw;
