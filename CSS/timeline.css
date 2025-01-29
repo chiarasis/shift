@@ -489,16 +489,16 @@ img {
         display: grid;
         z-index: 6;
         top: 10vw;
-        left: 6vw;
-        justify-content: center;
+        left: 9vw
     }
     #timeline-statica img {
-        width: 85vw;
+        width: 250px;
     }
     #anni {
         display: grid;
         top: 2vw;
-        gap: 2.5vw;
+        gap: 0.69vw;
+        border-bottom: none;
     }
     #anni h3 {
         border-bottom: 1px dashed #949494;
