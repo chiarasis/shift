@@ -1,4 +1,4 @@
-@media (320px<=width<=1440px) {
+@media (320px<=width<=1800px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -41,7 +41,7 @@
     width: 101.3vw;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
-    top: 8.5vw;
+    top: 13.3vw;
     display: flex;
     flex-direction: row; /* Questo non è necessario ora, visto che useremo `position: absolute` */ /* Elimina qualsiasi gap tra le immagini */
     height: 100%; /* Assicura che il contenitore abbia un'altezza adeguata */
