@@ -244,43 +244,6 @@ ul {
 
 }
 
-
-/* Tablet verticali */
-@media (width<768px) {
-    .layout {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .container {
-        max-width: 90%;
-    }
-    .pagine {
-        padding-left: 0;
-    }
-    #menutendina, ul {
-        display: block;
-        visibility: visible;
-        position: static;
-    }
-    #menutendina:hover {
-        background-color: #fff;
-    }
-    #menu-icona {
-        width: 32px;
-        height: 34px;
-        background-image:url(icone/menu-02.png);
-        background-size:contain;
-    }
-    #menutendina:hover #menu-icona {
-        width: 32px;
-        height: 34px;
-        background-image:url(icone/menublu.png);
-    }
-    body {
-        font-family: Geist;
-    }
-}
-
 /* Smartphone */
 @media (320px<=width<=468px) {
     .layout {
@@ -329,10 +292,10 @@ ul {
         background-size: contain;
         cursor: pointer;
         background-repeat: no-repeat;
-
     }
     
-    #menutendina:hover #menu-icona {
+    /* Quando il menu è aperto, cambia icona */
+    #menu-icona.active {
         background-image: url(icone/menublu.png);
     }
     
@@ -358,25 +321,27 @@ ul {
     }
     
     ul li ul.dropdown {
-        display: none;
+        display: none; /* Nasconde il menu di default */
         position: absolute;
         background-color: #394A9F;
         z-index: 999;
         right: -20px;
     }
     
-    ul li ul.dropdown li {
+    /* Quando il menu è attivo, viene mostrato */
+    ul li ul.dropdown.active {
         display: block;
     }
     
-    ul li:hover ul.dropdown {
+    ul li ul.dropdown li {
         display: block;
     }
     
     ul li a:hover {
         background: #394A9F;
     }
+    
     body {
         font-family: Geist;
-    }
+    }    
 }

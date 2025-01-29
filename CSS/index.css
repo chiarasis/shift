@@ -29,7 +29,7 @@
 .blu h3 {
     color:#fff;
 }
-.blu video {
+.blu picture {
     margin-left: 72px;
     margin-right: 20px;
     height: 752px ;
@@ -115,14 +115,16 @@ footer {
     .blu div {
         margin-left: 20px;
     }
-}
-@media (width <= 1400px) {
     .resources {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
+    .resources div {
+        max-width: 100%;
+    }
 }
+
 @media (width<=468px) {
 #heroimg {
     width: 160%;

@@ -480,7 +480,7 @@ img {
 
 }
 
-@media (width<=468px) {
+@media (width<=600px) {
     #lineeUniversi, .container, #squares-container, .filter-buttons, #lineeVerticali {
     display: none;
     }
@@ -489,15 +489,15 @@ img {
         display: grid;
         z-index: 6;
         top: 10vw;
-        left: 16vw;
+        left: 11vw;
     }
     #timeline-statica img {
-        width: 251px;
+        width: 350px;
     }
     #anni {
         display: grid;
         top: 2vw;
-        gap: 0.32vw;
+        gap: 4.2vw;
         border-bottom: none;
     }
     #anni h3 {
