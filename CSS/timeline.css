@@ -489,10 +489,10 @@ img {
         display: grid;
         z-index: 6;
         top: 10vw;
-        left: 9vw
+        left: 16vw;
     }
     #timeline-statica img {
-        width: 250px;
+        width: 251px;
     }
     #anni {
         display: grid;
