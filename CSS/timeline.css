@@ -1,4 +1,4 @@
-@media (1400px<=width<=1800px) {
+@media (320px<=width<=1800px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -484,6 +484,7 @@ img {
     }
     #timeline-statica {
         display: block;
+        z-index: 6;
     }
 
 }
