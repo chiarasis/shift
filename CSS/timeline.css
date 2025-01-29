@@ -497,12 +497,12 @@ img {
     #anni {
         display: grid;
         top: 2vw;
-        gap: 0.69vw;
+        gap: 0.32vw;
         border-bottom: none;
     }
     #anni h3 {
         border-bottom: 1px dashed #949494;
-        font-size: 9px;
+        font-size: 10px;
     }
 
 }
