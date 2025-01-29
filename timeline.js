@@ -77,15 +77,17 @@ function animateUniversiImagesOnScroll() {
   const scrollY = window.scrollY;
   const universiHeight = document.getElementById("lineeUniversi").offsetHeight;
 
-  const revealAmount = (scrollY / universiHeight) * 30;
-  const cropAmount = Math.min(100, 100 - revealAmount); // Calcola il taglio progressivo
+  // Riduciamo il moltiplicatore per rallentare l'animazione
+  const revealAmount = (scrollY / universiHeight) * 5; // Prova con 5, o anche meno
+  const cropAmount = Math.max(0, 100 - revealAmount); // Evita valori negativi
 
   universiImages.forEach((image) => {
     if (image.style.visibility === "visible") {
-      image.style.clipPath = `inset(0 0 ${cropAmount}% 0)`; // Applica il taglio progressivo
+      image.style.clipPath = `inset(0 0 ${cropAmount}% 0)`; // Taglio progressivo più fluido
     }
   });
 }
+
 
 // Funzione per animare progressivamente i container con opacità
 function revealContainers() {

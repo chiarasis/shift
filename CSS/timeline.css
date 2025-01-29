@@ -509,7 +509,35 @@ img {
         gap: 25vw;
     }
 }
+@media (1400px<width<=1500px) {
+    #lineeUniversi {
+        top: 12.9vw;
+        width: 99.84vw;
+    }
+    #lineeUniversi img:nth-child(1) {
+        margin-left: 5.1vw;
+    }
+    #lineeUniversi img:nth-child(2) {
+        margin-left: 5.1vw;
+    }
+    #lineeUniversi img:nth-child(3) {
+        margin-left: 5.2vw;
+    }
+    #lineeUniversi img:nth-child(4) {
+        margin-left: 4.9vw;
+    }
+    #lineeUniversi img:nth-child(5) {
+        margin-left: 6vw;
+    }
+    .filter-buttons {
+        gap: 8vw;
+        left: 1vw;
+    }
+    #lambdabutton {
+        margin-left: 0;
+    }
 
+}
 
 
 
