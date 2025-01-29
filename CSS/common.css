@@ -241,73 +241,39 @@ ul {
     #reportdecoherence {
         display: none;
     }
+}
 
-    #menutendina {
+@media (width<768px) {
+    .layout {
+        margin-left: 20px;
         margin-right: 20px;
-        position: relative;
     }
-
+    .container {
+        max-width: 90%;
+    }
+    .pagine {
+        padding-left: 0;
+    }
+    #menutendina, ul {
+        display: block;
+        visibility: visible;
+        position: static;
+    }
+    #menutendina:hover {
+        background-color: #fff;
+    }
     #menu-icona {
-        width: 40px;
-        height: 40px;
-        background-image: url(icone/menu-02.png);
-        background-size: contain;
-        cursor: pointer;
-        background-repeat: no-repeat;
-        position: relative;
-        z-index: 1000;
+        width: 32px;
+        height: 34px;
+        background-image:url(icone/menu-02.png);
+        background-size:contain;
     }
-
-    /* Cambia icona quando il menu è aperto */
-    #menu-icona.active {
-        background-image: url(icone/menublu.png);
+    #menutendina:hover #menu-icona {
+        width: 32px;
+        height: 34px;
+        background-image:url(icone/menublu.png);
     }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    ul li {
-        position: relative;
-    }
-
-    ul li a {
-        display: block;
-        font-family: "Geist Mono";
-        text-decoration: none;
-        color: #fff;
-        opacity: 65%;
-        padding: 10px 15px;
-        text-align: left;
-        width: 220px;
-    }
-
-    /* MENU A TENDINA */
-    ul.dropdown {
-        display: none; /* Nasconde il menu di default */
-        position: absolute;
-        background-color: #394A9F;
-        z-index: 999;
-        top: 50px; /* Distanzia il menu dall'icona */
-        left: 0;
-        padding: 10px 0;
-        border-radius: 5px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        width: 250px;
-    }
-
-    /* Mostra il menu quando è attivo */
-    ul.dropdown.active {
-        display: block;
-    }
-
-    ul.dropdown li {
-        display: block;
-    }
-
-    ul li a:hover {
-        background: #394A9F;
+    body {
+        font-family: Geist;
     }
 }
