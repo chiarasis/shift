@@ -481,7 +481,7 @@ img {
 }
 
 @media (width<=468px) {
-    #lineeUniversi, .container, #squares-container, .filter-buttons {
+    #lineeUniversi, .container, #squares-container, .filter-buttons, #lineeVerticali {
     display: none;
     }
     #timeline-statica {
@@ -498,6 +498,7 @@ img {
     #anni {
         display: grid;
         top: 2vw;
+        gap: 2.5vw;
     }
     #anni h3 {
         border-bottom: 1px dashed #949494;
