@@ -1,4 +1,4 @@
-@media (320px<=width<=1440px) {
+
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -476,8 +476,6 @@ img {
 }
 #timeline-statica {
     display: none
-}
-
 }
 
 @media (width<=600px) {
