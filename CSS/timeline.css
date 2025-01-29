@@ -486,6 +486,9 @@ img {
         display: block;
         z-index: 6;
     }
+    #timeline-statica img {
+        width: 50vw;
+    }
 
 }
 
