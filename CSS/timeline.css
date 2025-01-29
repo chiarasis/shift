@@ -1,4 +1,4 @@
-@media (320px<=width<=1800px) {
+@media (320px<=width<=1400px) {
 .layout {
     position: relative; /* Necessario per i figli con position:absolute */
 }
@@ -38,7 +38,7 @@
 }
 
 #lineeUniversi {
-    width: 99.67vw;
+    width: 101.3vw;
     position: absolute;
     z-index: 2; /* Sopra le linee verticali */
     top: 8.5vw;
@@ -56,24 +56,24 @@
 }
 
 #lineeUniversi img:nth-child(1) {
-    margin-left: 0;
+    margin-left: 5.3vw;
 }
 
 #lineeUniversi img:nth-child(2) {
-    margin-left: 2.8vw;
+    margin-left: 5.6vw;
 }
 
 #lineeUniversi img:nth-child(3) {
-    margin-left: 5.7vw;
+    margin-left: 6vw;
 }
 
 
 #lineeUniversi img:nth-child(4) {
-    margin-left: 8.3vw;
+    margin-left: 6vw;
 }
 
 #lineeUniversi img:nth-child(5) {
-    margin-left: 12.6vw;
+    margin-left: 7.5vw;
 }
 
 
@@ -509,5 +509,6 @@ img {
         gap: 25vw;
     }
 }
+
 
 
