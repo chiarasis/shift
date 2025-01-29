@@ -481,21 +481,42 @@ img {
 }
 
 @media (width<=468px) {
-    #lineeUniversi, .container, #squares-container {
+    #lineeUniversi, .container, #squares-container, .filter-buttons {
     display: none;
     }
     #timeline-statica {
-        position: relative;
+        position: absolute;
         display: grid;
         z-index: 6;
-        top: 18vw;
+        top: 10vw;
         justify-content: center;
     }
     #timeline-statica img {
-        width: 80vw;
+        width: 90vw;
     }
-    .anni {
+    #anni {
         display: grid;
+    }
+    #anni h3 {
+        border-bottom: 1px dashed #949494;
+        font-size: 10px;
+    }
+    #lineeVerticali {
+        display: flex;
+        flex-direction: row;
+        gap: 17vw;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        top: 9vw;
+        height: 100%;
+        left: 6vw;
+    }
+    .line {
+        border-left: 1px dashed #949494; 
+    }
+    #lineaLambda {
+        margin-left: 3vw;
     }
 
 }
