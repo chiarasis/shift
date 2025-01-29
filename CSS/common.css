@@ -223,48 +223,8 @@ ul {
     position: absolute;
 }
 
-@media (width<=1024px) {
-    .layout {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .pagine {
-        padding-left: 5em;
-    }
-    .footer {
-        flex-direction: column;
-    }
-    #reportdecoherence a {
-        display: none;
-    }
-    body {
-        font-family: Geist;
-    }
-
-
-}
-
-/* Smartphone */
-@media (320px<=width<=468px) {
-    .layout {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    p {
-        font-size: 14px;
-    }
-    header .logo img {
-        height: 40px;
-    }
-    .pagine, #reportdecoherence {
-        display: none;
-    }
-    body {
-        font-family: Geist;
-    }
-}
-
-@media (width<= 950px) {  /* Ora copre tutti i telefoni e tablet */
+/* Media Query per dispositivi fino a 1024px (tablet e smartphone) */
+@media (max-width: 1024px) {
     .layout {
         margin-left: 20px;
         margin-right: 20px;
@@ -275,7 +235,6 @@ ul {
     }
 
     .pagine {
-        padding-left: 0;
         display: none;
     }
 
@@ -284,7 +243,6 @@ ul {
     }
 
     #menutendina {
-        justify-self: left;
         margin-right: 20px;
         position: relative;
     }
@@ -351,9 +309,5 @@ ul {
 
     ul li a:hover {
         background: #394A9F;
-    }
-
-    body {
-        font-family: Geist;
     }
 }
