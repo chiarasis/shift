@@ -264,7 +264,7 @@ ul {
     }
 }
 
-@media (max-width: 950px) {  /* Ora copre tutti i telefoni e tablet */
+@media (width<= 950px) {  /* Ora copre tutti i telefoni e tablet */
     .layout {
         margin-left: 20px;
         margin-right: 20px;
