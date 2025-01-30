@@ -486,7 +486,7 @@ img {
         position: absolute;
         display: grid;
         z-index: 6;
-        top: 10vw;
+        top: 4vw;
         left: 11vw;
     }
     #timeline-statica img {

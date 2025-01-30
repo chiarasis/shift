@@ -70,7 +70,7 @@
     "logo": "imgs/apple morso sx.png",
     "name": "Apple ⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Lambda-Delta",
+    "shiftedTimelines": "Delta-Xi-Lambda",
     "category": "Technology",
     "requiresSecondPage": true
   },
@@ -145,7 +145,7 @@
     "logo": "imgs/cocacola.png",
     "name": "CocaCola",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Theta-Lambda",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Food&Drinks",
     "requiresSecondPage": false
   },
@@ -192,7 +192,7 @@
     "requiresSecondPage": true
   },
   {
-    "logo": "imgs/fruitoftheloom_2.png",
+    "logo": "imgs/fruitoftheloom_3.png",
     "name": "Fruit Of The Loom ⠀",
     "timeline": "Theta",
     "shiftedTimelines": "Theta-Delta",
@@ -200,10 +200,10 @@
     "requiresSecondPage": true
   },
   {
-    "logo": "imgs/fruitoftheloom_3.png",
+    "logo": "imgs/fruitoftheloom_2.png",
     "name": "Fruit Of The Loom ⠀⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Theta",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Clothing",
     "requiresSecondPage": false
   },
@@ -244,7 +244,7 @@
     "logo": "imgs/google_3.png",
     "name": "Google ⠀⠀⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Xi",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Technology",
     "requiresSecondPage": false
   },
@@ -353,7 +353,7 @@
     "logo": "imgs/kitkat_3.png",
     "name": "KitKit",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Sigma-Xi-Theta",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Food&Drinks",
     "requiresSecondPage": false
   },
@@ -411,7 +411,7 @@
     "logo": "imgs/Levis_2.png",
     "name": "Levis⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Theta",
+    "shiftedTimelines": "Delta-Sigma-Theta",
     "category": "Clothing",
     "requiresSecondPage": true
   }, 
@@ -435,7 +435,7 @@
     "logo": "imgs/lidl_1_originale.png",
     "name": "Lidl⠀⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Sigma",
+    "shiftedTimelines": "Delta-Sigma-Xi",
     "category": "Services",
     "requiresSecondPage": true
   },
@@ -502,7 +502,7 @@
     "logo": "imgs/moschino_4.png",
     "name": "Moskino",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Sigma-Lambda",
+    "shiftedTimelines": "Delta-Sigma-Theta-Lambda",
     "category": "Luxury",
     "requiresSecondPage": false
   },
@@ -610,7 +610,7 @@
     "logo": "imgs/prada2.png",
     "name": "Parada",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Sigma-Lambda",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Luxury",
     "requiresSecondPage": false
   },
@@ -643,7 +643,7 @@
     "logo": "imgs/rolex4.png",
     "name": "Rollex",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Xi-Theta",
+    "shiftedTimelines": "Delta-Xi-Theta-Lambda",
     "category": "Luxury",
     "requiresSecondPage": false
   },
@@ -676,7 +676,7 @@
     "logo": "imgs/shift og.png",
     "name": "SHIFT⠀",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Theta-Xi",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Services",
     "requiresSecondPage": false
   },
@@ -784,7 +784,7 @@
     "logo": "imgs/uber3.png",
     "name": "Ubber",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Xi",
+    "shiftedTimelines": "Delta-Sigma-Xi-Theta-Lambda",
     "category": "Services",
     "requiresSecondPage": false
   },
@@ -817,7 +817,7 @@
     "logo": "imgs/versace_1.png",
     "name": "Versace",
     "timeline": "Delta",
-    "shiftedTimelines": "Delta-Lambda",
+    "shiftedTimelines": "Delta-Xi-Theta",
     "category": "Luxury",
     "requiresSecondPage": true
   },

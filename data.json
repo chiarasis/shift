@@ -227,7 +227,7 @@
         "tags": "Technology, Apple, Mac, Iphone",
         "last_update": "March 2019",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Lambda",
+        "shifted-timelines": "Delta-Xi-Lambda",
         "year": "1999",
         "shift_type":["Shape", "Branch Specific"],
         "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
@@ -278,7 +278,7 @@
         "shifted-timelines": "Delta-Lambda",
         "year": "2021",
         "shift_type":["Spelling", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg,", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Barila",
@@ -302,7 +302,7 @@
         "shifted-timelines": "Lambda-Delta",
         "year": "2021",
         "shift_type":["Spelling", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg,", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
     },
 
     {
@@ -328,7 +328,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "1956",
         "shift_type":["Spelling", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg,", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Canon",
@@ -352,7 +352,7 @@
         "shifted-timelines": "Delta-Lambda",
         "year": "1956",
         "shift_type":["Spelling", "Total"],
-        "shift_type_img":["icons/icona spelling-02.svg,", "icons/icona total-02.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "Coca~Cola",
@@ -450,7 +450,7 @@
             "tags": "Luxury, Moschino, Bags, Italy",
             "last_update": "December 2022",
             "original-timeline": "Delta",
-            "shifted-timelines": "Delta-Theta-Lambda",
+            "shifted-timelines": "Delta-Sigma-Xi-Theta-Lambda",
             "year": "1956",
             "shift_type":["Spelling", "Branch Specific"],
             "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -533,7 +533,7 @@
         "name": "Fruit Of The Loom",
         "logo_image": "imgs/fruitoftheloom_4.png",
         "related_versions_1": "Timeline Delta",
-        "related_versions_1_img": "imgs/fruitoftheloom_3.png",
+        "related_versions_1_img": "imgs/fruitoftheloom_2.png",
         "related_versions_2": "",
         "related_versions_2_img": "mgs/no_logo.png",
         "gallery": [
@@ -558,7 +558,7 @@
         "name": "Fruit Of The Luum",
         "logo_image": "imgs/fruitoftheluum.png",
         "related_versions_1": "Timeline Delta",
-        "related_versions_1_img": "imgs/fruitoftheloom_3.png",
+        "related_versions_1_img": "imgs/fruitoftheloom_2.png",
         "related_versions_2": "",
         "related_versions_2_img": "mgs/no_logo.png",
         "gallery": [
@@ -580,13 +580,12 @@
     },
     {
         "name": "Fruit Of The Loom ⠀",
-        "logo_image": "imgs/fruitoftheloom_2.png",
+        "logo_image": "imgs/fruitoftheloom_3.png",
         "related_versions_1": "Timeline Delta",
         "related_versions_1_img": "imgs/fruitoftheloom_2.png",
         "related_versions_2": "",
         "related_versions_2_img": "mgs/no_logo.png",
         "gallery": [
-            "fake mockup/fruitoftheloomscuro.png",
             "fake mockup/FRUITOFTHELOOM/theta/FRUIT_THETA_1.png",
             "fake mockup/FRUITOFTHELOOM/theta/FRUIT_THETA_2.png",
             "fake mockup/FRUITOFTHELOOM/theta/FRUIT_THETA_3.png",
@@ -618,7 +617,7 @@
             "fake mockup/FRUITOFTHELOOM/delta/FRUIT_DELTA_1.png",
             "fake mockup/FRUITOFTHELOOM/delta/FRUIT_DELTA_2.webp",
             "fake mockup/FRUITOFTHELOOM/delta/FRUIT_DELTA_3.webp",
-            ""
+            "fake mockup/fruitoftheloomscuro.png"
         ],
         "description": "The logo, native to the Delta timeline, features a green apple. This versions has been consistently recognized by 85.05% of the Delta population as the original design. Historical data suggests that a branch-specific-decoherence event in 1987, involving multiple timelines, affected up to 1.82% of the Delta population.",
         "serial_number": "025",
@@ -626,7 +625,7 @@
         "tags": "Clothing, Fruit Of The Loom, Vintage",
         "last_update": "January 2025",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Theta",
+        "shifted-timelines": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "1987",
         "shift_type":["Color", "Branch Specific"],
         "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
@@ -692,9 +691,9 @@
         "related_versions_2_img": "mgs/no_logo.png",
         "gallery": [
             "fake mockup/google/xi/google xi.png",
-            "fake mockup/google/xi/2.png",
+            "fake mockup/google/xi/2 (1).png",
             "fake mockup/google/xi/3.png",
-            "fake mockup/google/xi/4.png"
+            "fake mockup/google/xi/4 (1).png"
         ],
         "description": "The logo was affected by a color decoherence: this variant features  two red 'G', a blue and yellow 'o' and a blue 'e'. It has been reported by 0.07% of the population and confirmed to originate from the Xi timeline. A branch-specific-decoherence, which occurred between the timelines in 2015, is estimated to have impacted 1,28% of the delta population.",
         "serial_number": "028",
@@ -717,8 +716,8 @@
         "gallery": [
             "fake mockup/google/theta/google theta.png",
             "fake mockup/google/theta/google_1.png",
-            "fake mockup/google/theta/3.png",
-            "fake mockup/google/theta/4.png"
+            "fake mockup/google/theta/3 (1).png",
+            "fake mockup/google/theta/4 (2).png"
         ],
         "description": "The logo was affected by a color decoherence: this variant features two green 'g', a yellow 'o' and a blue 'l'. It has been reported by 0.04% of the population and confirmed to originate from the Theta timeline. A branch-specific-decoherence, which occurred between the timelines in 2016, is estimated to have impacted 0,37% of the delta population.",
         "serial_number": "029",
@@ -744,9 +743,9 @@
         "related_versions_4_img": "imgs/google_3.png",
         "gallery": [
             "fake mockup/google/delta/google delta.png",
-            "fake mockup/google/delta/2.png",
-            "fake mockup/google/delta/3.png",
-            "fake mockup/google/delta/4.png"
+            "fake mockup/google/delta/2 (2).png",
+            "fake mockup/google/delta/3 (2).png",
+            "fake mockup/google/delta/google_1.png"
         ],
         "description": "The logo, native to the Delta timeline, features two yellow 'g,' a red and blue 'o,' and a red 'e.' This versions has been consistently recognized by 85.07% of the Delta population as the original design. Historical data suggests that a branch-specific-decoherence event in 2015, involving multiple timelines, affected up to 2.61% of the Delta population.",        
         "serial_number": "030",
@@ -754,7 +753,7 @@
         "tags": "Technology, Google, Browser",
         "last_update": "February 2024",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Xi",
+        "shifted-timelines": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "2015",
         "shift_type":["Color", "Branch Specific"],
         "shift_type_img":["icons/color.svg", "icons/branch specific.svg"]
@@ -805,7 +804,7 @@
         "shifted-timelines": "Sigma-Delta",
         "year": "1960",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.svg", "icons/branch specific.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
 
     {
@@ -879,7 +878,7 @@
         "shifted-timelines": "Theta-Delta",
         "year": "1975",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
+        "shift_type_img":["icons/shape.svg", "icons/icona total-02.svg"]
     },
     {
         "name": "IBM ⠀",
@@ -1076,7 +1075,7 @@
         "tags": "Food&Drinks, KitKit, Chocolate",
         "last_update": "January 2019",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Sigma-Xi",
+        "shifted-timelines": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "2007",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -1173,7 +1172,7 @@
         "tags": "Clothing, Lacosta, Polo, Golf",
         "last_update": "October 2008",
         "original-timeline": "Delta",
-        "shifted-timelines": "Lambda-Sigma-Delta",
+        "shifted-timelines": "Delta-Sigma-Xi",
         "year": "2001",
         "shift_type":["Spelling,Color", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg","icons/color.svg", "icons/branch specific.svg"]
@@ -1198,7 +1197,7 @@
         "tags": "Clothing, Levis, Jeans",
         "last_update": "June 2001",
         "original-timeline": "Sigma",
-        "shifted-timelines": "Sigma-Xi-Delta",
+        "shifted-timelines": "Sigma-Theta-Delta",
         "year": "1967",
         "shift_type":["Spelling, Shape", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
@@ -1305,8 +1304,8 @@
         "logo_image": "imgs/lidl_1_originale.png",
         "related_versions_1": "Timeline Sigma",
         "related_versions_1_img": "imgs/lidl_2.png",
-        "related_versions_2": "",
-        "related_versions_2_img": "imgs/no_logo.png",
+        "related_versions_2": "Timeline Xi",
+        "related_versions_2_img": "imgs/lidl 4.png",
         "gallery": [
             "fake mockup/LIDL/delta/LIDL_DELTA_1.webp",
             "fake mockup/LIDL/delta/LIDL_DELTA_2.webp",
@@ -1319,7 +1318,7 @@
         "tags": "Services, Lidl, Supermarket",
         "last_update": "March 2013",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Sigma",
+        "shifted-timelines": "Delta-Sigma-Xi",
         "year": "1972",
         "shift_type":["Shape", "Branch Specific"],
         "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
@@ -1519,7 +1518,7 @@
         "tags": "Luxury, Moskino, Bags, Italy",
         "last_update": "December 2000",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Sigma-Lambda",
+        "shifted-timelines": "Delta-Sigma-Theta-Lambda",
         "year": "1997",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -1714,7 +1713,7 @@
         "tags": "Media, Pokómon, Cards, Tv",
         "last_update": "August 2020",
         "original-timeline": "Delta",
-        "shifted-timelines": "Lambda-Sigma-Delta",
+        "original-timeline-image": "Delta-Xi-Lambda",
         "year": "1998",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -1738,7 +1737,7 @@
         "tags": "Media, Pokemón, Cards, Tv",
         "last_update": "November 2013",
         "original-timeline": "Lambda",
-        "shifted-timelines": "Lambda-Sigma-Delta",
+        "shifted-timelines": "Lambda-Xi-Delta",
         "year": "1998",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -1814,7 +1813,7 @@
         "shifted-timelines": "Theta-Xi-Delta",
         "year": "1940",
         "shift_type":["Spelling, Shape", "Branch Specific"],
-        "shift_type_img":["icons/icona spelling-02","svg,icons/shape.svg", "icons/branch specific.svg"]
+        "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Parada",
@@ -1837,7 +1836,7 @@
         "tags": "Luxury, Parada, Fashion, Italy",
         "last_update": "September 2013",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Sigma-Lambda",
+        "original-timeline-image": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "1942",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -1889,7 +1888,7 @@
         "shifted-timelines": "Xi-Theta-Delta",
         "year": "1945",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
+        "shift_type_img":["icons/shape.svg","icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Rolex⠀",
@@ -1913,7 +1912,7 @@
         "shifted-timelines": "Theta-Xi-Delta",
         "year": "1945",
         "shift_type":["Shape", "Branch Specific"],
-        "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
+        "shift_type_img":["icons/shape.svg","icons/icona spelling-02.svg", "icons/branch specific.svg"]
     },
     {
         "name": "Rollex",
@@ -1935,7 +1934,7 @@
         "tags": "Luxury, Rollex, Watches",
         "last_update": "October 2017",
         "original-timeline": "Delta",
-        "shifted-timelines": "Delta-Lambda",
+        "original-timeline-image": "Delta-Xi-Theta-Lambda",
         "year": "1944",
         "shift_type":["Spelling, Shape", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg","icons/shape.svg", "icons/branch specific.svg"]
@@ -2023,7 +2022,6 @@
         "gallery": [
             "fake mockup/shift/delta/shift og.jpg",
             "fake mockup/shift/delta/shift og 2.jpg",
-            "fake mockup/shift/delta/shfit og 3.jpg",
             "fake mockup/shift/delta/shift og 4.png"
         ],
         "description": "The logo, native to the Delta timeline, features the writing 'shift' and the base of the temple is made by two equal steps. This versions has been consistently recognized by 85.048% of the Delta population as the original design. Historical data suggests that a branch-specific-decoherence event in 1963, involving multiple timelines, affected up to 1.72% of the Delta population.",        "serial_number": "082",
@@ -2055,7 +2053,7 @@
         "tags": "Services, Shift, Archive, Multiverse",
         "last_update": "October 2024",
         "original-timeline": "Lambda",
-        "shifted-timelines": "Lambda-Delta",
+        "original-timeline-image": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "1962",
         "shift_type":["Shape", "Branch Specific"],
         "shift_type_img":["icons/shape.svg", "icons/branch specific.svg"]
@@ -2153,7 +2151,7 @@
         "tags": "Clothing, The East Face, Sport",
         "last_update": "July 2023",
         "original-timeline": "Sigma",
-        "original-timeline-image": "Sigma-Xi-Delta",
+        "shifted-timelines": "Sigma-Xi-Theta-Delta",
         "year": "1966",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -2176,7 +2174,7 @@
         "tags": "Clothing, The West Face, Sport",
         "last_update": "August 2020",
         "original-timeline": "Xi",
-        "original-timeline-image": "Xi-Sigma-Delta",
+        "shifted-timelines": "Xi-Sigma-Theta-Delta",
         "year": "1966",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -2198,7 +2196,7 @@
         "tags": "Clothing, The North Face, Sport",
         "last_update": "November 2019",
         "original-timeline": "Theta",
-        "original-timeline-image": "Theta-Xi-Delta",
+        "shifted-timelines": "Theta-Sigma-Xi-Delta",
         "year": "1966",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -2221,7 +2219,7 @@
         "tags": "Clothing, The South Face, Sport",
         "last_update": "April 2021",
         "original-timeline": "Delta",
-        "original-timeline-image": "Delta-Xi-Theta",
+        "shifted-timelines": "Delta-Sigma-Xi-Theta",
         "year": "1966",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -2246,7 +2244,7 @@
         "tags": "Services, Ubeer, Taxi",
         "last_update": "June 2023",
         "original-timeline": "Sigma",
-        "original-timeline-image": "Sigma-Theta-Delta",
+        "shifted-timelines": "Sigma-Theta-Delta-Lambda",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -2270,7 +2268,7 @@
         "tags": "Services, Uber, Taxi",
         "last_update": "July 2023",
         "original-timeline": "Theta",
-        "original-timeline-image": "Theta-Delta-Lambda",
+        "shifted-timelines": "Theta-Sigma-Delta-Lambda",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -2293,7 +2291,7 @@
         "tags": "Services, Ubber, Taxi",
         "last_update": "January 2024",
         "original-timeline": "Delta",
-        "original-timeline-image": "Delta-Xi",
+        "original-timeline-image": "Delta-Sigma-Xi-Theta-Lambda",
         "year": "2020",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -2317,7 +2315,7 @@
         "tags": "Services, Ubor, Taxi",
         "last_update": "August 2024",
         "original-timeline": "Lambda",
-        "original-timeline-image": "Lambda-Sigma-Delta",
+        "original-timeline-image": "Lambda-Sigma-Theta-Delta",
         "year": "2019",
         "shift_type":["Spelling", "Branch Specific"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/branch specific.svg"]
@@ -2376,10 +2374,11 @@
         "related_versions_2": "Timeline Delta",
         "related_versions_2_img": "imgs/versace_1.png",
         "gallery": [
-            "fake mockup/moschino 1.png",
-            "fake mockup/moschino 2.png",
-            "fake mockup/moschino 3.jpg",
-            "fake mockup/moschino 4.jpg"
+            "fake mockup/versace/versaci/versaci 2.jpg",
+            "fake mockup/versace/versaci/versaci 3.jpg",
+            "fake mockup/versace/versaci/versaci 4.jpg",
+            "fake mockup/versace/versaci/versaci 5.jpg",
+            "fake mockup/versace/versaci/versaci.png"
         ],
         "description": "The logo was affected by a spelling decoherence: this variant features the writing 'Versaci'. It has been reported by 0.086% of the population and confirmed to originate from the Lambda timeline. A total-shift-decoherence, which occurred between the timelines in 1995, is estimated to have impacted 0.189% of the delta population.",
         "serial_number": "096",
@@ -2400,18 +2399,17 @@
         "related_versions_2": "Timeline Delta",
         "related_versions_2_img": "imgs/versace_1.png",
         "gallery": [
-            "fake mockup/moschino 1.png",
-            "fake mockup/moschino 2.png",
-            "fake mockup/moschino 3.jpg",
-            "fake mockup/moschino 4.jpg"
+            "fake mockup/verace 2.png",
+            "fake mockup/verace 3.png",
+            "fake mockup/verace.jpg"
         ],
         "description": "The logo was affected by a spelling decoherence: this variant features the writing 'Verace'. It has been reported by 0.001% of the population and confirmed to originate from the Theta timeline. A total-shift-decoherence, which occurred between the timelines in 1995, is estimated to have impacted 0,004% of the delta population.",
         "serial_number": "097",
         "permalink": "https://shift-archive.ch/archive/verace/theta",
         "tags": "Luxury, Versace, Fashion, Italy",
         "last_update": "June 1999",
-        "original-timeline": "Xi",
-        "shifted-timelines": "Xi-Theta-Delta",
+        "original-timeline": "Theta",
+        "shifted-timelines": "Theta-Xi-Delta",
         "year": "1995",
         "shift_type":["Spelling", "Total"],
         "shift_type_img":["icons/icona spelling-02.svg", "icons/icona total-02.svg"]
@@ -2424,10 +2422,12 @@
         "related_versions_2": "Timeline Theta",
         "related_versions_2_img": "imgs/versace_2.png",
         "gallery": [
-            "fake mockup/moschino 1.png",
-            "fake mockup/moschino 2.png",
-            "fake mockup/moschino 3.jpg",
-            "fake mockup/moschino 4.jpg"
+            "fake mockup/versace og 2.jpg",
+            "fake mockup/versace og 3.jpg",
+            "fake mockup/versace og 4.jpg",
+            "fake mockup/versace og 5.jpg",
+            "fake mockup/versace og.jpg"
+
         ],
         "description": "The logo was affected by a spelling decoherence: this variant features the writing 'Versace'. It has been reported by 0.08% of the population and confirmed to originate from the Delta timeline. A total-shift-decoherence, which occurred between the timelines in 1995, is estimated to have impacted 7.28% of the delta population.",
         "serial_number": "098",
