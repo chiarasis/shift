@@ -78,7 +78,7 @@ function animateUniversiImagesOnScroll() {
   const universiHeight = document.getElementById("lineeUniversi").offsetHeight;
 
   // Riduciamo il moltiplicatore per rallentare l'animazione
-  const revealAmount = (scrollY / universiHeight) * 6; // Prova con 5, o anche meno
+  const revealAmount = (scrollY / universiHeight) * 7; // Prova con 5, o anche meno
   const cropAmount = Math.max(0, 100 - revealAmount); // Evita valori negativi
 
   universiImages.forEach((image) => {
