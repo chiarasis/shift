@@ -186,4 +186,7 @@ textarea:not(:placeholder-shown){
   textarea {
     width: 250px;
   }
+  #reportdecoherence {
+    display: none;
+  }
 }
