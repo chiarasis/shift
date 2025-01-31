@@ -536,21 +536,21 @@ img {
     }
 
 }
-@media (width>=1512px) {
+@media (width=1512px) {
     #lineeUniversi img:nth-child(1) {
-        margin-left: 4.9vw;
+        margin-left: 0;
     }
     #lineeUniversi img:nth-child(2) {
-        margin-left: 4.5vw;
+        margin-left: 0;
     }
     #lineeUniversi img:nth-child(3) {
-        margin-left: 4.4vw;
+        margin-left: 0;
     }
     #lineeUniversi img:nth-child(4) {
-        margin-left: 3.7vw;
+        margin-left: 0;
     }
     #lineeUniversi img:nth-child(5) {
-        margin-left: 4.6vw;
+        margin-left: 0;
     }
     #anni {
         gap:7vw;
@@ -561,6 +561,7 @@ img {
     }
     #lineeUniversi {
         top: 12.7vw;
+        width: 99.93vw;
     }
 }
 
